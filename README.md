@@ -20,12 +20,47 @@ The digital copies of the letters are reproduced online in a database available 
 are also provided. The morphological analysis was originally done under the Russian National Corpus scheme for the Corpus of Birchbark Letters, 
 which is mostly compatible with the RNC Old Russian scheme. Lemmatization reflects the later Old Russian spelling tradition. 
 The morphological and lexical annotation of the UD Old\_East\_Slavic-Birchbark treebank is a conversion of this annotation that follows the mapping 
-in (Lyashevskaya 2019). The dependency annotation is originally done in the UD 2.0 scheme. 
+in (Lyashevskaya 2019). The sentence segmentation and the dependency annotation is originally done in the UD 2.0 scheme.  
+
+# Data collection  
+
+The data includes 27k tokens. Documents created at different periods are evenly distributed across test, dev, and train parts.  
+
+* 1025-1100 --  2.4%
+* 1100-1200 -- 37.0%
+* 1200-1300 -- 16.7%
+* 1300-1400 -- 31.5%
+* 1400-1500 -- 12.5%
+
+The following genres are presented: 
+
+* letters -- 61.7% 
+* household and business records -- 21.6% 
+* official and legal documents -- 6.8% 
+* records for church services -- 3.4% 
+* learner records -- 2.2%
+* mixed genred, varia -- 4.3% 
+
+# Conventions  
+
+In the source documents, words are not delimited by spaces. In the treebank, however, they are represented as separate 
+words, which is the result of linguistic interpretation. Many documents were found damaged and/or in fragments, so the following conventions 
+for the reconstructed texts are used:
+
+* [] -- reconstructed letters, partially preserved
+* () -- completely lost letters (pure conjectures) 
+* {} -- misspelled letters
+* ... -- unknown number of missing letters
+* --- known number of missing letters (each letter is represented by one -)
+* <lb/> -- line breaks within words  
+
+The birchbark document number and line of the word are given in the MISC field (e.g. `addr="431:1"|line_id=1`). 
+Normalized word spellings (e.g. `wf="кѫна"` for `к[ѫ](на)`), grammar and meaning commentary provided in the RNC corpus can also be found in the MISC field.  
 
 # Acknowledgments
 
-Tokenisation, lexical and morphological analysis is primarily based on the study _Old Novgorod Dialect_ by Andrey Zaliznyak as well as other studies by 
-Valentin Yanin, Andrey Zaliznyak, Alexey Gippius, Dmitry Sichinava, and other researchers of East Slavic vernacular. 
+Tokenisation, lexical and morphological analysis is primarily based on the study _Old Novgorod Dialect_ by Andrei Zalizniak as well as other studies by 
+Valentin Yanin, Andrei Zalizniak, Alexey Gippius, Dmitri Sitchinava, and other researchers of East Slavic vernacular. 
 We thank the developers and annotators of the RNC Corpus of Birchbark Letters.  
 
 ## References
@@ -49,7 +84,7 @@ Includes text: yes
 Genre: nonfiction
 Lemmas: converted from manual
 UPOS: converted from manual
-XPOS: 
+XPOS: not available
 Features: converted from manual
 Relations: manual native
 Contributors: Lyashevskaya, Olga
