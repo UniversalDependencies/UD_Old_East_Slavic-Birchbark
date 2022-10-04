@@ -16716,3 +16716,25 @@
 16	вонидь	внити	VERB	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	parataxis	_	wf="вонидь"|comment="tense_nonpast"|addr="Звен._2:5"|SpaceAfter=Yes
 17	:	:	PUNCT	_	_	8	punct	_	wf=":"|SpaceAfter=Yes
 
+# newdoc id=texts/birchbark/1148
+# newpar
+# sent_id = 1148-1
+# sent_transl_ru = 
+# sent_transl_en = 
+# text = Серькию лосось Юрью лосось Микулиньскому лосось Лазорю коробоцка икри да торпица Зехъну торпица да сухыхъ
+1	Серькию	Серьгии	PROPN	_	Case=Dat|Gender=Masc|NameType=Giv|Number=Sing	0	root	_	SpaceAfter=Yes
+2	лосось	лосось	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	SpaceAfter=Yes
+3	Юрью	Юрьꙗ	PROPN	_	Case=Dat|Gender=Masc|NameType=Giv|Number=Sing	1	conj	_	SpaceAfter=Yes
+4	лосось	лосось	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	SpaceAfter=Yes
+5	Микулиньскому	микулиньский	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	1	conj	_	SpaceAfter=Yes
+6	лосось	лосось	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	SpaceAfter=Yes
+7	Лазорю	Лазорь	PROPN	_	Case=Dat|Gender=Masc|NameType=Giv|Number=Sing	1	conj	_	SpaceAfter=Yes
+8	коробоцка	коробочка	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	SpaceAfter=Yes
+9	икри	икра	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=Yes
+10	да	да	CCONJ	_	_	11	cc	_	SpaceAfter=Yes
+11	торпица	торпица	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	8	conj	_	SpaceAfter=Yes
+12	Зехъну	Зехно	PROPN	_	Case=Dat|Gender=Masc|NameType=Giv|Number=Sing	1	conj	_	SpaceAfter=Yes
+13	торпица	торпица	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	SpaceAfter=Yes
+14	да	да	CCONJ	_	_	15	cc	_	SpaceAfter=Yes
+15	сухыхъ	сухыи	ADJ	_	Case=Gen|Gender=Masc|Number=Plur	13	conj	_	SpaceAfter=Yes
+
