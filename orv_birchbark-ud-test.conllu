@@ -1509,7 +1509,7 @@
 2	доконьцѧху	доконьчати	VERB	_	Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	wf="доконьцѧху"|tense=aor|comment=ipf_ending|meaning="заключить_договор"|addr="136:1"|SpaceAfter=Yes
 3	мꙑсловѣ	Мысловъ	ADJ	_	Case=Nom|Gender=Masc|Number=Plur|Poss=Yes	4	amod	_	wf="мꙑсловѣ"|addr="136:1"|SpaceAfter=Yes
 4	дѣтѣ	дѣти	NOUN	_	Case=Nom|Number=Plur	2	nsubj	_	wf="дѣтѣ"|comment=pl_tant|addr="136:1"|SpaceAfter=Yes
-5	труфане	Труфанъ	PROPN	_	Case=Nom|Gender=Masc|NameType=Giv|Number=Sing	2	nsubj	_	wf="труфане"|addr="136:2"|line_id=2|SpaceAfter=Yes
+5	труфане	Труфанъ	PROPN	_	Case=Nom|Gender=Masc|NameType=Giv|Number=Sing	4	appos	_	wf="труфане"|addr="136:2"|line_id=2|SpaceAfter=Yes
 6	з	съ	ADP	_	_	7	case	_	wf="з"|addr="136:2"|SpaceAfter=Yes
 7	братьею	братьꙗ	NOUN	_	Case=Ins|Gender=Fem|Number=Sing	5	nmod	_	wf="братьею"|comment="aggr"|addr="136:2"|SpaceAfter=Yes
 8	давати	давати	VERB	_	VerbForm=Inf|Voice=Act	2	xcomp	_	wf="давати"|addr="136:2"|SpaceAfter=Yes
@@ -2681,7 +2681,7 @@
 5	ѧръшъвиц	рошевичь	PROPN	_	Case=Gen|Gender=Masc|NameType=Pat|Number=Plur	0	root	_	wf="ѧръшъвиц"|comment=unfinished|addr="219:3"|SpaceAfter=Yes
 6	на	на	ADP	_	_	8	case	_	wf="на"|comment=in_NUM|addr="219:3"|SpaceAfter=Yes
 7	дѹвѹ	два	NUM	_	Case=Loc|NumType=Card	8	nummod:gov	_	wf="дѹвѹ"|addr="219:3"|SpaceAfter=Yes
-8	бьрькъвьскѹ	берковескъ	NOUN	_	Case=Loc|Gender=Masc|Number=Dual	5	nsubj	_	wf="бьрькъвьскѹ"|meaning="мера_веса"|addr="219:3"|SpaceAfter=Yes
+8	бьрькъвьскѹ	берковескъ	NOUN	_	Case=Loc|Gender=Masc|Number=Dual	10	nmod	_	wf="бьрькъвьскѹ"|meaning="мера_веса"|addr="219:3"|SpaceAfter=Yes
 9	дове	два	NUM	_	Case=Nom|Gender=Fem|NumType=Card	10	nummod:gov	_	wf="дове"|addr="219:3"|SpaceAfter=Yes
 10	гривене	гривна	NOUN	_	Case=Nom|Gender=Fem|Number=Count	5	nsubj	_	wf="гривене"|addr="219:3"|SpaceAfter=Yes
 11	и	и	CCONJ	_	_	13	cc	_	wf="и"|addr="219:4"|line_id=4|SpaceAfter=Yes
@@ -5443,7 +5443,7 @@
 4	:	:	PUNCT	_	_	5	punct	_	wf=":"|SpaceAfter=Yes
 5	сѧ	себя	PRON	_	Case=Acc|Clitic=Yes|PronType=Prs|Reflex=Yes	8	expl	_	wf="сѧ"|addr="422:3"|SpaceAfter=Yes
 6	:	:	PUNCT	_	_	7	punct	_	wf=":"|SpaceAfter=Yes
-7	ва:ма	вы	PRON	_	Case=Dat|Number=Dual|Person=2	8	nsubj	_	wf="ва:ма"|addr="422:3"|SpaceAfter=Yes
+7	ва:ма	вы	PRON	_	Case=Dat|Number=Dual|Person=2	8	iobj	_	wf="ва:ма"|addr="422:3"|SpaceAfter=Yes
 8	покла<lbr/>нѧ	покланѧтисѧ	VERB	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	wf="покланѧ"|comment="tense_nonpast"|comment="стяжение_гласных?"|addr="422:3"|SpaceAfter=Yes
 9	:	:	PUNCT	_	_	8	punct	_	wf=":"|line_id=4|SpaceAfter=Yes
 
