@@ -223,7 +223,7 @@
 # sent_transl_en = 
 # text = о сьмнꙋн[ье] къ игꙋчькꙋ
 1	о	отъ	ADP	_	_	2	case	_	wf="о"|comment=lemma_unsure|addr="008:1"|line_id=1|_
-2	сьмнꙋн[ье]	Семнунѧꙗ	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	4	orphan	_	wf="сьмнꙋнье"|comment=lemma_ph_unsure|comment=lemma_unsure|addr="008:1"|_
+2	сьмнꙋн[ье]	Семнунѧꙗ	PROPN	_	Case=Gen|Gender=Fem|NameType=Hus|Number=Sing	4	orphan	_	wf="сьмнꙋнье"|comment=lemma_ph_unsure|comment=lemma_unsure|addr="008:1"|_
 3	къ	къ	ADP	_	_	4	case	_	wf="къ"|comment=lemma_unsure|addr="008:1"|_
 4	игꙋчькꙋ	Игучко	PROPN	_	Case=Dat|Gender=Masc|NameType=Giv|Number=Sing	0	root	_	wf="игꙋчькꙋ"|addr="008:1"|_
 
@@ -13768,9 +13768,9 @@
 5	·	·	PUNCT	_	_	6	punct	_	wf="·"|_
 6	беремене	беремѧ	NOUN	_	Case=Nom|Gender=Neut|Number=Count	2	nsubj	_	wf="беремене"|meaning="охапка,_связка_(как_мера)"|addr="1054:_Лицевая_сторона:2"|_
 7	ко<lbr/>жь	кожа	NOUN	_	Case=Gen|Gender=Fem|Number=Plur	6	nmod	_	wf="кожь"|addr="1054:_Лицевая_сторона:2"|_
-8	ӏ	и	CCONJ	_	_	9	cc	_	wf="ӏ"|addr="1054:_Лицевая_сторона:3"|line_id=3|_
+8	ӏ	и	CCONJ	_	_	10	cc	_	wf="ӏ"|addr="1054:_Лицевая_сторона:3"|line_id=3|_
 9	коробию	коробьꙗ	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	10	reparandum	_	wf="коробию"|comment="исправление"|addr="1054:_Лицевая_сторона:3"|_
-10	ѧ	коробьꙗ	PRON	_	Case=Nom|Number=Sing|Person=1	6	conj	_	wf="ѧ"|comment="исправление"|addr="1054:_Лицевая_сторона:4a"|line_id=4a|_
+10	ѧ	коробьꙗ	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	6	conj	_	wf="ѧ"|comment="исправление"|addr="1054:_Лицевая_сторона:4a"|line_id=4a|_
 11	ӏ	и	CCONJ	_	_	12	cc	_	wf="ӏ"|addr="1054:_Лицевая_сторона:3"|_
 12	кругъ	кругъ	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	6	conj	_	wf="кругъ"|addr="1054:_Лицевая_сторона:3"|_
 13	воску	воскъ	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	wf="воску"|addr="1054:_Лицевая_сторона:3"|_
