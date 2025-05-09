@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit c1984d97df0ecdcc1b50fbeaa8c96419c6321432
+commit ecbbdff44b15c9b6de4a691e3499c1286459ab2e
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun Nov 10 10:33:45 2024 +0100
+Date:   Fri May 9 21:07:42 2025 +0200
 Evaluating the following revision of UD_Old_East_Slavic-Birchbark:
-commit 52c8c5f30fa0c1f434caa53f21df24493f6d9f7a
+commit c4c0c7736b7e08f819223bdd9b2ffa450d05aa2e
+Merge: 0f98413 503585f
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun May 5 13:08:36 2024 +0200
 Size: counted 27269 of 27269 words (nodes).
 Size: min(0, log((N/1000)**2)) = 6.61150105170285.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -20,25 +20,55 @@ Features: source of annotation (from README) factor is 0.8.
 Universal relations: 35 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
 Udapi:
-               TOTAL       3135
-Udapi: found 3135 bugs.
+               TOTAL       3082
+Udapi: found 3082 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 27269 words.
-Genres: found 1 out of 17 known.
+Genres: found 1 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang orv --max-err=10 UD_Old_East_Slavic-Birchbark/orv_birchbark-ud-dev.conllu
+[Line 1239 Sent 102-3 Node 10]: [L3 Warning fixed-without-extpos] Fixed expression 'сто бꙑ' does not have the 'ExtPos' feature
+[Line 1477 Sent 129-2 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'цо бъ' does not have the 'ExtPos' feature
+[Line 1504 Sent 129-3 Node 5]: [L3 Warning fixed-without-extpos] Fixed expression 'цо бъ' does not have the 'ExtPos' feature
+[Line 2566 Sent 227-4 Node 7]: [L3 Warning fixed-without-extpos] Fixed expression 'а и' does not have the 'ExtPos' feature
+[Line 4677 Sent 301-3 Node 14]: [L3 Warning fixed-without-extpos] Fixed expression 'цо би' does not have the 'ExtPos' feature
+[Line 4730 Sent 302-2 Node 11]: [L3 Warning fixed-without-extpos] Fixed expression 'чо бꙑ' does not have the 'ExtPos' feature
+[Line 4851 Sent 313-2 Node 14]: [L3 Warning fixed-without-extpos] Fixed expression 'нѣ чимъ' does not have the 'ExtPos' feature
+[Line 5572 Sent 354-3 Node 3]: [L3 Warning fixed-without-extpos] Fixed expression 'что бꙑ' does not have the 'ExtPos' feature
+[Line 5677 Sent 354-9 Node 12]: [L3 Warning fixed-without-extpos] Fixed expression 'что бꙑ' does not have the 'ExtPos' feature
+[Line 6233 Sent 413-2 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'цо бꙑ' does not have the 'ExtPos' feature
+...suppressing further errors regarding Warning
+Warnings: 42
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang orv --max-err=10 UD_Old_East_Slavic-Birchbark/orv_birchbark-ud-test.conllu
+[Line 416 Sent 019-1 Node 2]: [L3 Warning fixed-without-extpos] Fixed expression 'цо бъ' does not have the 'ExtPos' feature
+[Line 2134 Sent 167-2 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'чо би' does not have the 'ExtPos' feature
+[Line 2383 Sent 204-1 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'ѧко же' does not have the 'ExtPos' feature
+[Line 2510 Sent 207-1 Node 8]: [L3 Warning fixed-without-extpos] Fixed expression 'ѧко<lbr/>ко же' does not have the 'ExtPos' feature
+[Line 3587 Sent 311-3 Node 3]: [L3 Warning fixed-without-extpos] Fixed expression 'де і' does not have the 'ExtPos' feature
+[Line 4157 Sent 361-3 Node 10]: [L3 Warning fixed-without-extpos] Fixed expression 'не чего' does not have the 'ExtPos' feature
+[Line 4161 Sent 361-3 Node 14]: [L3 Warning fixed-without-extpos] Fixed expression 'тако же' does not have the 'ExtPos' feature
+[Line 4163 Sent 361-3 Node 16]: [L3 Warning fixed-without-extpos] Fixed expression 'не чего' does not have the 'ExtPos' feature
+[Line 5337 Sent 420-3 Node 6]: [L3 Warning fixed-without-extpos] Fixed expression 'то же' does not have the 'ExtPos' feature
+[Line 5381 Sent 421-3 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'паки ли' does not have the 'ExtPos' feature
+...suppressing further errors regarding Warning
+Warnings: 28
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang orv --max-err=10 UD_Old_East_Slavic-Birchbark/orv_birchbark-ud-train.conllu
+[Line 1745 Sent 095-1 Node 2]: [L3 Warning fixed-without-extpos] Fixed expression 'цто бо' does not have the 'ExtPos' feature
+[Line 9438 Sent 612-2 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'то т[и]' does not have the 'ExtPos' feature
+[Line 10534 Sent 693-2 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression '[ч]то бꙑ' does not have the 'ExtPos' feature
+[Line 12256 Sent 835-2 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'то ти' does not have the 'ExtPos' feature
+[Line 16324 Sent Torzh_17-2 Node 34]: [L3 Warning fixed-without-extpos] Fixed expression 'та же' does not have the 'ExtPos' feature
+Warnings: 5
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
-(weight=0.0769230769230769) * (score{genres}=0.0588235294117647) = 0.00452488687782805
+(weight=0.0769230769230769) * (score{genres}=0.0555555555555556) = 0.00427350427350427
 (weight=0.0769230769230769) * (score{lemmas}=0.8) = 0.0615384615384615
 (weight=0.256410256410256) * (score{size}=0.478556403975349) = 0.122706770250089
 (weight=0.0512820512820513) * (score{split}=0.67) = 0.0343589743589744
 (weight=0.0769230769230769) * (score{tags}=0.8) = 0.0615384615384615
 (weight=0.307692307692308) * (score{udapi}=0.01) = 0.00307692307692308
 (weight=0.0769230769230769) * (score{udeprels}=0.945945945945946) = 0.0727650727650728
-(TOTAL score=0.422048011944272) * (availability=1) * (validity=1) = 0.422048011944272
+(TOTAL score=0.421796629339948) * (availability=1) * (validity=1) = 0.421796629339948
 STARS = 2
-UD_Old_East_Slavic-Birchbark	0.422048011944272	2
+UD_Old_East_Slavic-Birchbark	0.421796629339948	2
