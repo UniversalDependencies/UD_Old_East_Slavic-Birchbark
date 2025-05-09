@@ -11,7 +11,7 @@
     <test><sentences>1007</sentences><tokens>10004</tokens><words>10004</words><fused>0</fused></test>
   </size>
   <lemmas unique="4721" /><!-- ·, …, а, и, у, :, къ, отъ, на, быти, ꙗзъ, гривна, въ, ты, не -->
-  <forms unique="11397" /><!-- ·, …, а, :, и, на, ѹ, ѿ, не, ти, ко, къ, у, (…), к -->
+  <forms unique="11398" /><!-- ·, …, а, :, и, на, ѹ, ѿ, не, ти, ко, къ, у, (…), к -->
   <fusions unique="0" /><!--  -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="17">
@@ -25,8 +25,8 @@
     <tag name="NOUN">4865</tag><!-- гривна, куна, поклонъ, рожь, господинъ, осподинъ, грамота, бѣлка, рубль, конь -->
     <tag name="NUM">1261</tag><!-- ·в҃·, полъ, ·г҃·, два, ·е҃·, десѧть, ·д҃·, ·ѕ҃·, ·ӏ҃·, триѥ -->
     <tag name="PART">785</tag><!-- не, ти, же, се, ли, ни, то, пакы, хотѧ, си -->
-    <tag name="PRON">1265</tag><!-- ꙗзъ, ты, и, что, себя, мы, вы, себе, кто, вѣ -->
-    <tag name="PROPN">2764</tag><!-- Иванъ, Степанъ, Петръ, Сменъ, Федоръ, Фома, Дмитръ, ꙗковъ, Борисъ, Григорьꙗ -->
+    <tag name="PRON">1264</tag><!-- ꙗзъ, ты, и, что, себя, мы, вы, себе, кто, вѣ -->
+    <tag name="PROPN">2765</tag><!-- Иванъ, Степанъ, Петръ, Сменъ, Федоръ, Фома, Дмитръ, ꙗковъ, Борисъ, Григорьꙗ -->
     <tag name="PUNCT">3973</tag><!-- ·, …, :, (…), ⁞, |, ·:·, ·:, [·], · -->
     <tag name="SCONJ">381</tag><!-- оже, то, что, аже, како, бы, али, оти, ꙗко, ти -->
     <tag name="SYM">123</tag><!-- +, [+], ×, :+:, (–), ––, :+, ~, ·×·, 「ѿ」 -->
@@ -34,7 +34,7 @@
     <tag name="X">1581</tag><!-- а, з, д, и, е, -, в, г, ––, –––- -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="55">
+  <feats unique="57">
     <feat name="Analyt" value="Yes" upos="AUX,PRON,VERB">380</feat><!-- еси, ѥси, есмь, ѥсмь, есте, есть, есемо, бꙑ, ѥсме, есме -->
     <feat name="Animacy" value="Anim" upos="ADJ,DET,NOUN,PROPN">8</feat><!-- (с)[н҃а], глѧденцевъ, зуба, моего, моӏхъ, сиротокъ, смирного, хрѣстьꙗнъ -->
     <feat name="Case" value="Acc" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,VERB">1976</feat><!-- сѧ, то, мѧ, тѧ, три, поло, полъ, землю, мене, конь -->
@@ -49,14 +49,16 @@
     <feat name="Clitic" value="Yes" upos="PRON">294</feat><!-- сѧ, ми, ти, мѧ, тѧ, се, ва, вꙑ, нꙑ, та -->
     <feat name="Degree" value="Cmp" upos="ADJ,ADV,NUM">21</feat><!-- боле, боль, (с)тар[ѣ]шимъ, б]ол[ъ]шии, бол[е], болша, болшимо, больши, большѣе, лише -->
     <feat name="Degree" value="Pos" upos="ADJ">1</feat><!-- Микулиньскому -->
-    <feat name="Gender" value="Fem" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">3066</feat><!-- ржи, кѹно, соли, кѹнъ, грамота, гривьнъ, рожи, гривено, гривьнѣ, гривна -->
+    <feat name="ExtPos" value="ADV" upos="PRON">1</feat><!-- цого -->
+    <feat name="ExtPos" value="PART" upos="AUX">1</feat><!-- бꙑ -->
+    <feat name="Gender" value="Fem" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">3067</feat><!-- ржи, кѹно, соли, кѹнъ, грамота, гривьнъ, рожи, гривено, гривьнѣ, гривна -->
     <feat name="Gender" value="Masc" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">5825</feat><!-- поло, поклонъ, полъ, гн҃е, поклоно, ѥго, конь, своѥму, ивана, пло -->
     <feat name="Gender" value="Neut" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">1094</feat><!-- то, покланѧние, жита, села, шло, серебра, томъ, добро, слово, село -->
     <feat name="Mood" value="Cnd" upos="AUX,SCONJ,VERB">78</feat><!-- бꙑ, бъ, би, бꙑхъ, [еси], абꙑ, аобꙑша, б]ꙑ, б…, бꙑхо -->
     <feat name="Mood" value="Imp" upos="AUX,VERB">725</feat><!-- даи, возми, възьми, пришли, посли, присъли, иди, молови, присли, въдаи -->
     <feat name="NameType" value="Geo" upos="PROPN">227</feat><!-- городищи, куролѣ, кшетахъ, лаидиколѣ, лугу, мълъвотицѣхъ, озеревахъ, рѹсѣ, торжеку, шидовицихъ -->
     <feat name="NameType" value="Giv" upos="PROPN">2340</feat><!-- ивана, петра, бориса, евана, мариѧ, степана, павла, смена, завида, лѹкѣ -->
-    <feat name="NameType" value="Hus" upos="PROPN">41</feat><!-- ––-тковье, безѹевее, борише<lbr/>ковее, боришьковее, ва<lbr/>сильеви·и, волотъковѣи, говѣновое, городьшинее, гюрегевее, дав)ꙑжею -->
+    <feat name="NameType" value="Hus" upos="PROPN">42</feat><!-- ––-тковье, безѹевее, борише<lbr/>ковее, боришьковее, ва<lbr/>сильеви·и, волотъковѣи, говѣновое, городьшинее, гюрегевее, дав)ꙑжею -->
     <feat name="NameType" value="Nat" upos="PROPN">58</feat><!-- [п]елем<lbr/>чѧхъ, братиловиць, во[ло](ч)[а](н)[о], воло[чѧ](н)[омъ, вꙑ<lbr/>ѧнина, вꙑмолчовъ, глѧденцевъ, городищѧне, городищѧньх, городьцано -->
     <feat name="NameType" value="Pat" upos="PROPN">94</feat><!-- юрьѥвичю, (д)[орож]иньжичь, (ѻлекс)[а]ндровичю, (…)<lbr/>сѹ[щ]иць, (…)турки(нѣ), ––-(-)<lbr/>вичомꙑ, –-[и]ж[ин](а), [во]дин[иц]-, [се]<lbr/>лекѹѥвица, [ю]рь·евицю -->
     <feat name="Number" value="Count" upos="ADJ,NOUN">385</feat><!-- грв҃нѣ, гривьнѣ, кнѣ, кꙋници, гривене, кад, грвне, гривне, гривни, гривнь -->
@@ -67,7 +69,7 @@
     <feat name="NumForm" value="Digit" upos="ADJ,NUM">701</feat><!-- ·в҃·, ·г҃·, :в҃:, :в:, ·г·, в҃, ·ӏ҃·, г҃, :г҃:, ·в· -->
     <feat name="NumForm" value="Word" upos="NUM">1</feat><!-- полу -->
     <feat name="NumType" value="Card" upos="NUM">1093</feat><!-- ·в҃·, три, ·г҃·, :в҃:, :в:, ·г·, в҃, ·ӏ҃·, г҃, :г҃: -->
-    <feat name="Person" value="1" upos="AUX,PRON,VERB">879</feat><!-- ми, ѧ, мене, мнѣ, ѧзъ, мѧ, есмь, ѧзо, намъ, ѥсмь -->
+    <feat name="Person" value="1" upos="AUX,PRON,VERB">878</feat><!-- ми, ѧ, мене, мнѣ, ѧзъ, мѧ, есмь, ѧзо, намъ, ѥсмь -->
     <feat name="Person" value="2" upos="AUX,PRON,VERB">1342</feat><!-- тꙑ, ти, еси, тобѣ, ѥси, тѧ, даи, возми, тебе, възьми -->
     <feat name="Person" value="3" upos="AUX,PRON,VERB">419</feat><!-- есть, буде, бꙑ, бѹде, есте, въ, дасть, е, то, будь -->
     <feat name="Poss" value="Yes" upos="ADJ">297</feat><!-- бж҃и, петровѹ, савина, сменова, турабьѥвѣ, турабьѥвꙑх, тѹдорове, ѥванова, (д)анилово, (д)митрову -->
@@ -77,8 +79,8 @@
     <feat name="PronType" value="Rel" upos="ADV,DET,PRON">105</feat><!-- что, цто, цето, цо, иже, ижь, како, [ц]то, ежь, которъ -->
     <feat name="Reflex" value="Yes" upos="PRON">79</feat><!-- сѧ, (с)ѧ, [сѧ, с(ѧ), себѣ, сѧ] -->
     <feat name="Tense" value="Fut" upos="AUX,VERB">79</feat><!-- буде, бѹдѹ, буду, бѹде, будешь, будь, бѹдьть, бꙋде, будете, будьть -->
-    <feat name="Tense" value="Imp" upos="AUX,VERB">8</feat><!-- [бе]шь, бьшь, возꙑвахо, вьлѧшь, дѣѧшь, мълвлѧше, творѧхуо, шюмъ -->
-    <feat name="Tense" value="Past" upos="AUX,VERB">861</feat><!-- далъ, шло, бꙑло, възѧле, дале, послале, бꙑ, въдале, дала, бꙑлъ -->
+    <feat name="Tense" value="Imp" upos="AUX,VERB">7</feat><!-- [бе]шь, бьшь, возꙑвахо, вьлѧшь, дѣѧшь, мълвлѧше, творѧхуо -->
+    <feat name="Tense" value="Past" upos="AUX,VERB">862</feat><!-- далъ, шло, бꙑло, възѧле, дале, послале, бꙑ, въдале, дала, бꙑлъ -->
     <feat name="Tense" value="Pqp" upos="VERB">10</feat><!-- возилесь, возѧлъ, вꙑдалъ, наделиле, оста<lbr/>вили, реклъ, рьклъ, сталь, ѧлъ, ѿ<lbr/>казало -->
     <feat name="Tense" value="Pres" upos="AUX,VERB">979</feat><!-- еси, ѥси, есмь, ѥсмь, есть, есте, кланѧюсѧ, есемо, ѥсме, есме -->
     <feat name="Typo" value="Yes" upos="ADJ,CCONJ,DET,NOUN,PART,PROPN,SCONJ,VERB">18</feat><!-- ааи, верх{о}ъ, жеѧ, иван{ав}ова, ивана, косноти{ти}ни, лисид{н}ци<lbr/>никѣ, ме:ке, нее, поклонъ{н} -->
@@ -95,7 +97,7 @@
   <deps unique="41">
     <dep name="acl">28</dep>
     <dep name="acl:relcl">28</dep>
-    <dep name="advcl">362</dep>
+    <dep name="advcl">360</dep>
     <dep name="advmod">1029</dep>
     <dep name="amod">489</dep>
     <dep name="appos">298</dep>
@@ -103,9 +105,9 @@
     <dep name="aux:pass">3</dep>
     <dep name="case">3254</dep>
     <dep name="cc">1927</dep>
-    <dep name="ccomp">59</dep>
+    <dep name="ccomp">60</dep>
     <dep name="compound">2</dep>
-    <dep name="conj">2589</dep>
+    <dep name="conj">2590</dep>
     <dep name="cop">75</dep>
     <dep name="csubj">11</dep>
     <dep name="dep">928</dep>
@@ -116,7 +118,7 @@
     <dep name="flat">76</dep>
     <dep name="flat:name">213</dep>
     <dep name="goeswith">2</dep>
-    <dep name="iobj">667</dep>
+    <dep name="iobj">666</dep>
     <dep name="list">33</dep>
     <dep name="mark">337</dep>
     <dep name="nmod">1132</dep>
@@ -124,7 +126,7 @@
     <dep name="nsubj:pass">29</dep>
     <dep name="nummod">75</dep>
     <dep name="nummod:gov">889</dep>
-    <dep name="obj">1116</dep>
+    <dep name="obj">1117</dep>
     <dep name="obl">1136</dep>
     <dep name="obl:agent">2</dep>
     <dep name="orphan">346</dep>

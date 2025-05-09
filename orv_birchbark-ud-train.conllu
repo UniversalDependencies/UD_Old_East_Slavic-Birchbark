@@ -19,7 +19,7 @@
 # sent_id = 001-2
 # sent_transl_ru = 
 # sent_transl_en = 
-# text = шло ӏ (дару ӏ п)озема трицать ӏ три бл<lbr/>(ѣ)
+# text = шло ӏ (дару ӏ п)озема трицать ӏ три бл<lbr/>(кѣ)
 1	шло	ити	VERB	_	Gender=Neut|Number=Sing|Tense=Past|VerbForm=PartRes|Voice=Act	0	root	_	wf="шло"|tense=perf|addr="001:1"|_
 2	ӏ	и	CCONJ	_	_	3	cc	_	wf="ӏ"|addr="001:1"|_
 3	(дару	даръ	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	wf="дару"|comment=reconstr|ctxt_comment="оброк"|addr="001:1"|_
@@ -28,7 +28,7 @@
 6	трицать	тридьсѧть	NUM	_	Case=Nom|NumType=Card	9	nummod:gov	_	wf="трицать"|addr="001:1"|_
 7	ӏ	и	CCONJ	_	_	8	cc	_	wf="ӏ"|addr="001:1"|_
 8	три	триѥ	NUM	_	Case=Nom|Gender=Fem|NumType=Card	6	conj	_	wf="три"|addr="001:1"|_
-9	бл<lbr/>(ѣ)	бѣлка	NOUN	_	Case=Nom|Gender=Fem|Number=Count	1	nsubj	_	wf="блѣ"|meaning="белка_(зверек,_шкурка)_+_бела_(денежная_единица)"|addr="001:1"|_
+9	бл<lbr/>(кѣ)	бѣлка	NOUN	_	Case=Nom|Gender=Fem|Number=Count	1	nsubj	_	wf="блѣ"|meaning="белка_(зверек,_шкурка)_+_бела_(денежная_единица)"|addr="001:1"|_
 
 # sent_id = 001-3
 # sent_transl_ru = 
@@ -13434,9 +13434,9 @@
 # sent_id = 930-2
 # sent_transl_ru = И был шум с небес, велик и страшен.
 # sent_transl_en = 
-# text = и шюмъ шюмъ с не<lbr/>бесѣ велико · и страшно ·
+# text = и [бѣ] шюмъ с не<lbr/>бесѣ велико · и страшно ·
 1	и	и	CCONJ	_	_	2	cc	_	wf="и"|addr="930:2"|_
-2	шюмъ	быти	VERB	_	Number=Sing|Person=3|Tense=Imp|VerbForm=Fin|Voice=Act	0	root	_	wf="бѣ"|addr="930:2"|_
+2	[бѣ]	быти	VERB	Tense=Aor	Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	wf="бѣ"|addr="930:2"|_
 3	шюмъ	шюмъ	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	wf="шюмъ"|addr="930:2"|_
 4	с	съ	ADP	_	_	5	case	_	wf="с"|addr="930:2"|_
 5	не<lbr/>бесѣ	небо	NOUN	_	Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	wf="небесѣ"|addr="930:2"|_
