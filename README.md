@@ -81,6 +81,7 @@ We thank the developers and annotators of the RNC Corpus of Birchbark Letters.
 Data available since: UD v2.10
 License: CC BY-SA 4.0
 Includes text: yes
+Parallel: no
 Genre: nonfiction
 Lemmas: converted from manual
 UPOS: converted from manual
