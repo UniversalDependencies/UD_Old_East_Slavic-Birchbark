@@ -403,7 +403,7 @@
 8	бра]<lbr/>(т)ии	братьꙗ	NOUN	_	Case=Dat|Gender=Fem|Number=Sing	7	iobj	_	wf="братии"|comment="aggr"|addr="042:5"|_
 9	моѥи	мои	DET	_	Case=Dat|Gender=Fem|Number=Sing	8	det	_	wf="моѥи"|addr="042:6"|line_id=6|_
 10	а	а	CCONJ	_	_	14	cc	_	wf="а"|addr="042:6"|_
-11	дѣт[е]мъ	дѣти	NOUN	_	Case=Dat|Number=Plur	14	iobj	_	wf="дѣтемъ"|comment=pl_tant|addr="042:6"|_
+11	дѣт[е]мъ	дѣти	NOUN	_	Case=Dat|Gender=Neut|Number=Plur	14	iobj	_	wf="дѣтемъ"|comment=pl_tant|addr="042:6"|_
 12	·	·	PUNCT	_	_	13	punct	_	wf="·"|_
 13	м(о)имъ	мои	DET	_	Case=Dat|Number=Plur	11	det	_	wf="моимъ"|addr="042:6"|_
 14	[н](е)	не	PART	_	_	7	conj	_	wf="не"|comment=lemma_unsure|addr="042:6"|_
@@ -1078,7 +1078,7 @@
 4	т]ак[о]	тако	ADV	_	_	3	advmod	_	wf="тако"|addr="088:4"|_
 5	…	…	PUNCT	_	_	8	punct	_	wf="…"|_
 6	…ѣ	…ѣ	X	_	_	8	dep	_	wf="…ѣ"|addr="088:5"|line_id=5|_
-7	е[с]мь	быти	AUX	_	Analyt=Yes|Number=Sing|Person=1|Tense=Pres|VerbForm=PartRes|Voice=Act	8	aux	_	wf="есмь"|addr="088:5"|_
+7	е[с]мь	быти	AUX	_	Analyt=Yes|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	8	aux	_	wf="есмь"|addr="088:5"|_
 8	бꙑ[л](ъ)	быти	VERB	_	Analyt=Yes|Gender=Masc|Number=Sing|Tense=Past|VerbForm=PartRes|Voice=Act	3	parataxis	_	wf="бꙑлъ"|tense=perf|addr="088:5"|_
 9	…	…	PUNCT	_	_	3	punct	_	wf="…"|_
 
@@ -1113,7 +1113,7 @@
 # text = и ѧ ѡмеши двои за ѳедора з бра<lbr/>(т)…
 1	и	и	CCONJ	_	_	2	cc	_	wf="и"|addr="096:3"|_
 2	ѧ	ꙗзъ	PRON	_	Case=Nom|Number=Sing|Person=1	0	root	_	wf="ѧ"|addr="096:3"|_
-3	ѡмеши	омеши	NOUN	_	Case=Acc|Number=Plur	2	orphan	_	wf="ѡмеши"|comment=pl_tant|meaning="лемеха́"|addr="096:3"|_
+3	ѡмеши	омеши	NOUN	_	Case=Acc|Gender=Fem|Number=Plur	2	orphan	_	wf="ѡмеши"|comment=pl_tant|meaning="лемеха́"|addr="096:3"|_
 4	двои	двои	NUM	_	Case=Acc|Number=Plur	3	nummod	_	wf="двои"|meaning="двукратный,_двойной"|addr="096:3"|_
 5	за	за	ADP	_	_	6	case	_	wf="за"|addr="096:3"|_
 6	ѳедора	Федоръ	PROPN	_	Case=Acc|Gender=Masc|NameType=Giv|Number=Sing	2	orphan	_	wf="ѳедора"|addr="096:3"|_
@@ -1234,7 +1234,7 @@
 5	погоста	погостъ	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	wf="погоста"|addr="102:5"|_
 6	бѣѥть	бити	VERB	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	wf="бѣѥть"|comment="tense_nonpast"|addr="102:6"|line_id=6|_
 7	·	·	PUNCT	_	_	8	punct	_	wf="·"|_
-8	целомь	чело	NOUN	_	Case=Ins|Gender=Neut|Number=Sing	6	iobj	_	wf="целомь"|addr="102:6"|_
+8	целомь	чело	NOUN	_	Case=Ins|Gender=Neut|Number=Sing	6	obj	_	wf="целомь"|addr="102:6"|_
 9	·	·	PUNCT	_	_	16	punct	_	wf="·"|_
 10	сто	что	SCONJ	_	_	16	mark	_	wf="сто"|addr="102:6"|_
 11	бꙑ	бы	SCONJ	_	Mood=Cnd	10	fixed	_	wf="бꙑ"|comment=in_compound_CONJ|addr="102:6"|_
@@ -1244,7 +1244,7 @@
 15	·	·	PUNCT	_	_	16	punct	_	wf="·"|line_id=7|_
 16	ꙩкупиле	окупити	VERB	_	Gender=Masc|Mood=Cnd|Number=Sing|VerbForm=PartRes|Voice=Act	6	ccomp	_	wf="ꙩкупиле"|addr="102:7"|_
 17	·	·	PUNCT	_	_	18	punct	_	wf="·"|_
-18	ӏ(хъ	ӏ(хъ	X	_	_	16	obj	_	wf="ӏхъ"|addr="102:7"|_
+18	ӏ(хъ	ӏ(хъ	PRON	_	_	16	obj	_	wf="ӏхъ"|addr="102:7"|_
 19	ӏ	и	CCONJ	_	_	21	cc	_	wf="ӏ"|comment=reconstr|addr="102:7"|_
 20	с)лово	слово	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	21	obj	_	wf="слово"|addr="102:7"|_
 21	положи<lbr/>ле	положити	VERB	_	Gender=Masc|Mood=Cnd|Number=Sing|VerbForm=PartRes|Voice=Act	16	conj	_	wf="положиле"|addr="102:7"|_
@@ -1539,7 +1539,7 @@
 1	а	а	CCONJ	_	_	3	cc	_	wf="а"|addr="129: Внутренняя сторона,_начало_грамоты:16а"|_
 2	па(къ	пакы	PART	_	_	3	advmod	_	wf="пакъ"|addr="129:_Внутренняя_сторона,_начало_грамоты:16а"|_
 3	творѧ)<lbr/>ть	творити	VERB	_	Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	wf="творѧть"|meaning="считать_(чем),_утверждать_(про_кого_что)"|addr="129:_Внутренняя_сторона,_начало_грамоты:16а"|_
-4	виновату	виноватыи	ADJ	_	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	wf="виновату"|addr="129:_Внешняя_сторона:1б"|page_id=129: Внешняя сторона|line_id=1б|_
+4	виновату	виноватыи	ADJ	_	Case=Acc|Gender=Fem|Number=Sing	3	xcomp	_	wf="виновату"|addr="129:_Внешняя_сторона:1б"|page_id=129: Внешняя сторона|line_id=1б|_
 
 # sent_id = 129-7
 # sent_transl_ru = А все остальное здесь в порядке (букв.: подобру-поздорову).
@@ -1582,7 +1582,7 @@
 5	со	съ	ADP	_	_	7	case	_	wf="со"|addr="133:3"|line_id=3|_
 6	своимо	свои	DET	_	Case=Ins|Gender=Masc|Number=Sing	7	det	_	wf="своимо"|addr="133:3"|_
 7	су[к]ладн(икомо)	сукладникъ	NOUN	_	Case=Ins|Gender=Masc|Number=Sing	4	appos	_	wf="сукладникомо"|meaning="компаньон"|addr="133:3"|_
-8	кипу	кипа	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	1	iobj	_	wf="кипу"|addr="133:4"|line_id=4|_
+8	кипу	кипа	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	1	obj	_	wf="кипу"|addr="133:4"|line_id=4|_
 9	непрѣ	непрѧ	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	wf="непрѣ"|meaning="знач.?"|addr="133:4"|_
 10	:ѳ҃:	·ѳ҃·	NUM	_	NumForm=Digit|NumType=Card	11	nummod:gov	_	wf=":ѳ҃:"|addr="133:4"|_
 11	сото	сто	NOUN	_	Case=Gen|Gender=Neut|Number=Plur	9	nummod	_	wf="сото"|addr="133:4"|_
@@ -1635,7 +1635,7 @@
 3	сьменꙋ	Сменъ	PROPN	_	Case=Dat|Gender=Masc|NameType=Giv|Number=Sing	1	appos	_	wf="сьменꙋ"|addr="140:1"|_
 4	·	·	PUNCT	_	_	5	punct	_	wf="·"|_
 5	марко	Марко	PROPN	_	Case=Nom|Gender=Masc|NameType=Giv|Number=Sing	8	nsubj	_	wf="марко"|addr="140:1"|_
-6	цело<lbr/>мо	чело	NOUN	_	Case=Ins|Gender=Neut|Number=Sing	8	iobj	_	wf="целомо"|addr="140:1"|_
+6	цело<lbr/>мо	чело	NOUN	_	Case=Ins|Gender=Neut|Number=Sing	8	obj	_	wf="целомо"|addr="140:1"|_
 7	·	·	PUNCT	_	_	8	punct	_	wf="·"|line_id=2|_
 8	бьѥть	бити	VERB	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	wf="бьѥть"|comment="tense_nonpast"|addr="140:2"|_
 9	·	·	PUNCT	_	_	8	punct	_	wf="·"|_
@@ -1646,7 +1646,7 @@
 # text = ꙋпомни · цто · ѥсмь · плати<lbr/>лъ · серебро · перьдо [· тобою ·] д[ав]ꙑд[ꙋ]
 1	ꙋпомни	упомнити	VERB	_	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	wf="ꙋпомни"|addr="140:2"|_
 2	·	·	PUNCT	_	_	3	punct	_	wf="·"|_
-3	цто	что	PRON	_	Case=Acc|PronType=Rel	7	obj	_	wf="цто"|addr="140:2"|_
+3	цто	что	PRON	_	Case=Acc|PronType=Rel	9	det	_	wf="цто"|addr="140:2"|_
 4	·	·	PUNCT	_	_	7	punct	_	wf="·"|_
 5	ѥсмь	быти	AUX	_	Analyt=Yes|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	7	aux	_	wf="ѥсмь"|addr="140:2"|_
 6	·	·	PUNCT	_	_	7	punct	_	wf="·"|_
@@ -1702,7 +1702,7 @@
 18	тоболахо	тобола	NOUN	_	Case=Loc|Gender=Fem|Number=Plur	11	obl	_	wf="тоболахо"|meaning="сумка,_чемодан"|addr="141:2"|_
 19	а	а	CCONJ	_	_	21	cc	_	wf="а"|addr="141:2"|_
 20	гришки	Гришка	PROPN	_	Case=Gen|Gender=Masc|NameType=Giv|Number=Sing	21	nmod	_	wf="гришки"|addr="141:2"|_
-21	ко<lbr/>жюхе	кожюхъ	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	11	obj	_	wf="кожюхе"|addr="141:2"|_
+21	ко<lbr/>жюхе	кожюхъ	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	11	parataxis	_	wf="кожюхе"|addr="141:2"|_
 22	·	·	PUNCT	_	_	23	punct	_	wf="·"|line_id=3|_
 23	свита	свита	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	21	conj	_	wf="свита"|meaning="одежда"|addr="141:3"|_
 24	сороцица	сорочица	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	21	conj	_	wf="сороцица"|addr="141:3"|_
@@ -1760,7 +1760,7 @@
 6	женѣ	жена	NOUN	_	Case=Dat|Gender=Fem|Number=Sing	0	root	_	wf="женѣ"|addr="156:1а"|_
 7	и	и	CCONJ	_	_	9	cc	_	wf="и"|addr="156:1а"|_
 8	къ	къ	ADP	_	_	9	case	_	wf="къ"|addr="156:1а"|_
-9	дѣтьмъ	дѣти	NOUN	_	Case=Dat|Number=Plur	6	conj	_	wf="дѣтьмъ"|comment=pl_tant|addr="156:2а"|line_id=2а|_
+9	дѣтьмъ	дѣти	NOUN	_	Case=Dat|Gender=Neut|Number=Plur	6	conj	_	wf="дѣтьмъ"|comment=pl_tant|addr="156:2а"|line_id=2а|_
 
 # sent_id = 156-2
 # sent_transl_ru = А вот женщину-то (или: жену-то) били, почему же не поставили [ее] на пытку? (или: почему же не замучили?)
@@ -1799,7 +1799,7 @@
 2	михаилу	Михаилъ	PROPN	_	Case=Dat|Gender=Masc|NameType=Giv|Number=Sing	1	appos	_	wf="михаилу"|addr="157:1"|_
 3	юрьѥвичю	Юрьѥвичь	PROPN	_	Case=Dat|Gender=Masc|NameType=Pat|Number=Sing	2	flat:name	_	wf="юрьѥвичю"|addr="157:1"|_
 4	биютъ	бити	VERB	_	Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	wf="биютъ"|comment="tense_nonpast"|addr="157:1"|_
-5	челомъ	чело	NOUN	_	Case=Ins|Gender=Neut|Number=Sing	4	iobj	_	wf="челомъ"|addr="157:1"|_
+5	челомъ	чело	NOUN	_	Case=Ins|Gender=Neut|Number=Sing	4	obj	_	wf="челомъ"|addr="157:1"|_
 6	хрс҃тѧне	хрестьꙗнинъ	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	wf="хрс҃тѧне"|meaning="крестьянин"|addr="157:1"|_
 7	черенщани	черньщанинъ	PROPN	_	Case=Nom|Gender=Masc|NameType=Nat|Number=Plur	6	appos	_	wf="черенщани"|addr="157:2"|line_id=2|_
 
@@ -2027,7 +2027,7 @@
 7	ржи	рожь	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	wf="ржи"|addr="192/191:2"|_
 8	с	съ	ADP	_	_	10	case	_	wf="с"|addr="192/191:3"|line_id=3|_
 9	оаѳрлемовими	Офлѣмовъ	ADJ	_	Case=Ins|Number=Plur|Poss=Yes	10	amod	_	wf="оаѳрлемовими"|addr="192/191:3"|_
-10	людми	людьѥ	NOUN	_	Case=Ins|Number=Plur	2	orphan	_	wf="людми"|comment=pl_tant|addr="192/191:3"|_
+10	людми	людьѥ	NOUN	_	Case=Ins|Gender=Masc|Number=Plur	2	orphan	_	wf="людми"|comment=pl_tant|addr="192/191:3"|_
 11	а	а	CCONJ	_	_	13	cc	_	wf="а"|addr="192/191:4"|line_id=4|_
 12	наима	наѥмъ	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	wf="наима"|addr="192/191:4"|_
 13	даи	даꙗти	VERB	_	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	2	conj	_	wf="даи"|addr="192/191:4"|_
@@ -2255,13 +2255,13 @@
 # sent_transl_ru = … процент по 10 резан.
 # sent_transl_en =
 # text = …<lbr/>лнаѧ же по :ӏ: резоно намо ⁞
-1	…<lbr/>лнаѧ	…лнаѧ	X	_	_	0	root	_	wf="…лнаѧ"|addr="215:1"|line_id=1|_
+1	…<lbr/>лнаѧ	…лнаѧ	X	_	_	5	nsubj	_	wf="…лнаѧ"|addr="215:1"|line_id=1|_
 2	же	же	PART	_	_	1	advmod	_	wf="же"|comment=rupture|addr="215:2"|line_id=2|_
 3	по	по	ADP	_	_	5	case	_	wf="по"|addr="215:2"|_
 4	:ӏ:	·ӏ҃·	NUM	_	NumForm=Digit|NumType=Card	5	nummod:gov	_	wf=":ӏ:"|addr="215:2"|_
-5	резоно	рѣзана	NOUN	_	Case=Gen|Gender=Fem|Number=Plur	1	nmod	_	wf="резоно"|addr="215:2"|_
-6	намо	намъ	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	1	iobj	_	wf="намо"|meaning="проценты,_лихва"|addr="215:2"|_
-7	⁞	⁞	PUNCT	_	_	1	punct	_	wf="⁞"|_
+5	резоно	рѣзана	NOUN	_	Case=Gen|Gender=Fem|Number=Plur	0	root	_	wf="резоно"|addr="215:2"|_
+6	намо	намъ	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	5	nmod	_	wf="намо"|meaning="проценты,_лихва"|addr="215:2"|_
+7	⁞	⁞	PUNCT	_	_	5	punct	_	wf="⁞"|_
 
 # sent_id = 215-2
 # sent_transl_ru = У Марка-испольщика три гривны, [процент] по 10 резан, и полоть дара и почестья.
@@ -2499,7 +2499,7 @@
 # text = (три р)[а]зꙑ ти есьм[ь] (ходил)- въ полюдие семо м… …
 1	(три	триѥ	NUM	_	Case=Acc|NumType=Card	2	nummod:gov	_	wf="три"|comment=reconstr|addr="226:3"|_
 2	р)[а]зꙑ	разъ	NOUN	_	Case=Acc|Gender=Masc|Number=Plur	5	obl	_	wf="разꙑ"|comment=lemma_unsure|addr="226:3"|_
-3	ти	ти	PART	_	_	8	advmod	_	wf="ти"|addr="226:3"|_
+3	ти	ти	PART	_	_	5	advmod	_	wf="ти"|addr="226:3"|_
 4	есьм[ь]	быти	AUX	_	Analyt=Yes|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux	_	wf="есьмь"|comment=tense_unsure|comment=number_unsure|addr="226:3"|_
 5	(ходил)-	ходити	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=PartRes|Voice=Act	0	root	_	wf="ходил-"|tense=perf|comment=number_unsure|comment=reconstr|comment=lemma_unsure|addr="226:3"|_
 6	въ	въ	ADP	_	_	7	case	_	wf="въ"|addr="226:3"|_
@@ -2537,7 +2537,7 @@
 # sent_transl_en =
 # text = водае семѹ :в: гривьне
 1	водае	вдаꙗти	VERB	_	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	wf="водае"|addr="227:1"|_
-2	семѹ	сеи	DET	_	Case=Dat|Gender=Masc|Number=Sing	1	iobj	_	wf="семѹ"|addr="227:1"|_
+2	семѹ	сеи	DET	_	Case=Dat|Gender=Masc|Number=Sing|PronType=Dem	1	iobj	_	wf="семѹ"|addr="227:1"|_
 3	:в:	·в҃·	NUM	_	NumForm=Digit|NumType=Card	4	nummod:gov	_	wf=":в:"|addr="227:1"|_
 4	гривьне	гривна	NOUN	_	Case=Acc|Gender=Fem|Number=Count	1	obj	_	wf="гривьне"|addr="227:1"|_
 
@@ -2865,7 +2865,7 @@
 3	то<lbr/>бѣ	ты	PRON	_	Case=Dat|Number=Sing|Person=2	7	iobj	_	wf="тобѣ"|comment="clitic_ton"|addr="243:3"|_
 4	своѥму	свои	DET	_	Case=Dat|Gender=Masc|Number=Sing	5	det	_	wf="своѥму"|addr="243:4"|line_id=4|_
 5	гн҃у	господинъ	NOUN	_	Case=Dat|Gender=Masc|Number=Sing	3	appos	_	wf="гн҃у"|comment=lemma_unsure|addr="243:4"|_
-6	цоломъ	чело	NOUN	_	Case=Ins|Gender=Neut|Number=Sing	7	iobj	_	wf="цоломъ"|addr="243:4"|_
+6	цоломъ	чело	NOUN	_	Case=Ins|Gender=Neut|Number=Sing	7	obj	_	wf="цоломъ"|addr="243:4"|_
 7	бѣю	бити	VERB	_	Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	wf="бѣю"|comment="tense_nonpast"|addr="243:4"|_
 
 # newdoc id = texts/birchbark/247
@@ -2947,7 +2947,7 @@
 # text = бѣють · челомъ · корила · погоскаѧ · кюлоласкаѧ и кюрӏѥскаѧ · господину новугороду ·
 1	бѣють	бити	VERB	_	Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	wf="бѣють"|comment="tense_nonpast"|addr="248/249:_248:1"|line_id=1|_
 2	·	·	PUNCT	_	_	3	punct	_	wf="·"|_
-3	челомъ	чело	NOUN	_	Case=Ins|Gender=Neut|Number=Sing	1	iobj	_	wf="челомъ"|addr="248/249:_248:1"|_
+3	челомъ	чело	NOUN	_	Case=Ins|Gender=Neut|Number=Sing	1	obj	_	wf="челомъ"|addr="248/249:_248:1"|_
 4	·	·	PUNCT	_	_	5	punct	_	wf="·"|_
 5	корила	корѣла	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	1	nsubj	_	wf="корила"|meaning="карелы"|addr="248/249:_248:1"|_
 6	·	·	PUNCT	_	_	7	punct	_	wf="·"|_
@@ -3191,10 +3191,10 @@
 11	у	у	ADP	_	_	12	case	_	wf="у"|addr="252:_Лицевая_сторона:3а"|line_id=3а|_
 12	мьнь	ꙗзъ	PRON	_	Case=Gen|Number=Sing|Person=1	13	obl	_	wf="мьнь"|addr="252:_Лицевая_сторона:3а"|_
 13	розграбилѣ	розграбити	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	7	conj	_	wf="розграбилѣ"|tense=perf|comment=person_unsure|addr="252:_Лицевая_сторона:3а"|_
-14	лѣзни	лѣзень	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	wf="лѣзни"|comment="pos_unsure"|comment=number_unsure|comment=gender_unsure|comment=case_unsure|comment=lemma_unsure|meaning="праздношатающийся,_бродяга"|addr="252:_Лицевая_сторона:3а"|_
-15	мѧ	ꙗзъ	PRON	_	Case=Acc|Clitic=Yes|Number=Sing|Person=1	13	iobj	_	wf="мѧ"|comment=lemma_unsure|addr="252:_Лицевая_сторона:4а"|line_id=4а|_
+14	лѣзни	лѣзень	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	13	parataxis	_	wf="лѣзни"|comment="pos_unsure"|comment=number_unsure|comment=gender_unsure|comment=case_unsure|comment=lemma_unsure|meaning="праздношатающийся,_бродяга"|addr="252:_Лицевая_сторона:3а"|_
+15	мѧ	ꙗзъ	PRON	_	Case=Acc|Clitic=Yes|Number=Sing|Person=1	14	orphan	_	wf="мѧ"|comment=lemma_unsure|addr="252:_Лицевая_сторона:4а"|line_id=4а|_
 16	въ	въ	ADP	_	_	17	case	_	wf="въ"|addr="252:_Лицевая_сторона:4а"|_
-17	плищь	плищь	NOUN	_	Case=Loc|Gender=Masc|Number=Sing	13	obl	_	wf="плищь"|meaning="мятеж,_волнение,_беспорядки"|addr="252:_Лицевая_сторона:4а"|_
+17	плищь	плищь	NOUN	_	Case=Loc|Gender=Masc|Number=Sing	14	orphan	_	wf="плищь"|meaning="мятеж,_волнение,_беспорядки"|addr="252:_Лицевая_сторона:4а"|_
 
 # page_id = 252: Оборот
 # sent_id = 252-2
@@ -3713,7 +3713,7 @@
 9	землю	землѧ	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	12	orphan	_	wf="землю"|addr="270:3"|_
 10	…	…	PUNCT	_	_	12	punct	_	wf="…"|_
 11	…<lbr/>нъкинѣ	…нкинъ	ADJ	_	Case=Nom|Gender=Masc|Number=Plur|Poss=Yes	12	amod	_	wf="…нъкинѣ"|addr="270:3"|_
-12	дѣти	дѣти	NOUN	_	Case=Nom|Number=Plur	0	root	_	wf="дѣти"|comment=pl_tant|addr="270:4"|line_id=4|_
+12	дѣти	дѣти	NOUN	_	Case=Nom|Gender=Neut|Number=Plur	0	root	_	wf="дѣти"|comment=pl_tant|addr="270:4"|line_id=4|_
 13	·	·	PUNCT	_	_	17	punct	_	wf="·"|_
 14	…	…	PUNCT	_	_	17	punct	_	wf="…"|_
 15	свою	свои	DET	_	Case=Acc|Gender=Fem|Number=Sing	16	det	_	wf="свою"|addr="270:5"|line_id=5|_
@@ -4252,7 +4252,7 @@
 2	да	да	CCONJ	_	_	3	cc	_	wf="да"|addr="283:4"|_
 3	купи	купити	VERB	_	Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	wf="купи"|comment="tense_nonpast"|addr="283:4"|_
 4	ми	ꙗзъ	PRON	_	Case=Dat|Clitic=Yes|Number=Sing|Person=1	3	iobj	_	wf="ми"|addr="283:4"|_
-5	[ӏс]т[еп]ку	истебка	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	3	iobj	_	wf="ӏстепку"|addr="283:5"|line_id=5|_
+5	[ӏс]т[еп]ку	истебка	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	wf="ӏстепку"|addr="283:5"|line_id=5|_
 
 # sent_id = 283-4
 # sent_transl_ru = А Василько-литвин …
@@ -4289,7 +4289,7 @@
 13	зелоного	зеленыи	ADJ	_	Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	wf="зелоного"|addr="288:4"|_
 14	жолтого	желтыи	ADJ	_	Case=Gen|Gender=Masc|Number=Sing	13	conj	_	wf="жолтого"|addr="288:4"|_
 15	золотнъ	золотникъ	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	4	conj	_	wf="золотнъ"|comment="искажение_или_сокращение"|addr="288:4"|_
-16	бѣлилъ	бѣлила	NOUN	_	Case=Gen|Number=Plur	15	nmod	_	wf="бѣлилъ"|comment=pl_tant|addr="288:4"|_
+16	бѣлилъ	бѣлила	NOUN	_	Case=Gen|Gender=Neut|Number=Plur	15	nmod	_	wf="бѣлилъ"|comment=pl_tant|addr="288:4"|_
 17	на	на	ADP	_	_	18	case	_	wf="на"|addr="288:4"|_
 18	бѣлкѹ	бѣлка	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	16	nmod	_	wf="бѣлкѹ"|ctxt_comment="знач._не_установлено_(бела_(денежная_единица)_или_беление,_отбелка)"|meaning="белка_(зверек,_шкурка)_+_бела_(денежная_единица)"|addr="288:4"|_
 19	мꙑла	мыло	NOUN	_	Case=Gen|Gender=Neut|Number=Sing	4	conj	_	wf="мꙑла"|addr="288:5"|line_id=5|_
@@ -4645,7 +4645,7 @@
 7	твои	твои	DET	_	Case=Nom|Gender=Masc|Number=Sing	6	det	_	wf="твои"|addr="301:2"|_
 8	клѧ	Клѧ	PROPN	_	Case=Nom|Gender=Masc|NameType=Giv|Number=Sing	6	appos	_	wf="клѧ"|addr="301:2"|_
 9	·	·	PUNCT	_	_	10	punct	_	wf="·"|_
-10	цоло	чело	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	11	iobj	_	wf="цоло"|addr="301:2"|_
+10	цоло	чело	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	11	obj	_	wf="цоло"|addr="301:2"|_
 11	биѥ	бити	VERB	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	wf="биѥ"|comment="tense_nonpast"|addr="301:2"|_
 
 # sent_id = 301-2
@@ -4688,7 +4688,7 @@
 2	тоби	ты	PRON	_	Case=Dat|Number=Sing|Person=2	6	iobj	_	wf="тоби"|comment="clitic_ton"|addr="301:6"|_
 3	своѥму	свои	DET	_	Case=Dat|Gender=Masc|Number=Sing	4	det	_	wf="своѥму"|addr="301:6"|_
 4	сподиню	осподинъ	NOUN	_	Case=Dat|Gender=Masc|Number=Sing	2	appos	_	wf="сподиню"|addr="301:6"|_
-5	цоломи	чело	NOUN	_	Case=Ins|Gender=Neut|Number=Sing	6	iobj	_	wf="цоломи"|addr="301:6"|_
+5	цоломи	чело	NOUN	_	Case=Ins|Gender=Neut|Number=Sing	6	obj	_	wf="цоломи"|addr="301:6"|_
 6	бию	бити	VERB	_	Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	wf="бию"|comment="tense_nonpast"|addr="301:6"|_
 
 # newdoc id = texts/birchbark/302
@@ -4759,7 +4759,7 @@
 12	·	·	PUNCT	_	_	14	punct	_	wf="·"|_
 13	ѻ	о	ADP	_	_	14	case	_	wf="ѻ"|addr="302:5"|_
 14	томъ	тотъ	DET	_	Case=Loc|Gender=Neut|Number=Sing	17	obl	_	wf="томъ"|addr="302:5"|_
-15	(челомъ	чело	NOUN	_	Case=Ins|Gender=Neut|Number=Sing	17	iobj	_	wf="челомъ"|comment=reconstr|addr="302:6"|line_id=6|_
+15	(челомъ	чело	NOUN	_	Case=Ins|Gender=Neut|Number=Sing	17	obj	_	wf="челомъ"|comment=reconstr|addr="302:6"|line_id=6|_
 16	·	·	PUNCT	_	_	17	punct	_	wf="·"|_
 17	бью)	бити	VERB	_	Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	wf="бью"|comment="tense_nonpast"|comment=reconstr|addr="302:6"|_
 
@@ -4822,7 +4822,7 @@
 2	михаӏ·лу	Михаилъ	PROPN	_	Case=Dat|Gender=Masc|NameType=Giv|Number=Sing	1	appos	_	wf="михаӏ·лу"|addr="313:1"|_
 3	юрьѥвичю	Юрьѥвичь	PROPN	_	Case=Dat|Gender=Masc|NameType=Pat|Number=Sing	2	flat:name	_	wf="юрьѥвичю"|addr="313:1"|_
 4	·	·	PUNCT	_	_	5	punct	_	wf="·"|_
-5	челомь	чело	NOUN	_	Case=Ins|Gender=Neut|Number=Sing	6	iobj	_	wf="челомь"|addr="313:1"|_
+5	челомь	чело	NOUN	_	Case=Ins|Gender=Neut|Number=Sing	6	obj	_	wf="челомь"|addr="313:1"|_
 6	бьють	бити	VERB	_	Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	wf="бьють"|comment="tense_nonpast"|addr="313:1"|_
 7	·	·	PUNCT	_	_	8	punct	_	wf="·"|_
 8	хт҃ьꙗни	хрестьꙗнинъ	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	wf="хт҃ьꙗни"|meaning="крестьянин"|addr="313:1"|_
@@ -5164,8 +5164,8 @@
 3	поиде	поити	VERB	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	advcl	_	wf="поиде"|comment="tense_nonpast"|meaning="от_ити"|addr="332:_Внешняя_сторона_(332а):1а"|_
 4	присъли	прислати	VERB	_	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	wf="присъли"|addr="332:_Внешняя_сторона_(332а):1а"|_
 5	ивана	Иванъ	PROPN	_	Case=Gen|Gender=Masc|NameType=Giv|Number=Sing	7	nmod	_	wf="ивана"|addr="332:_Внешняя_сторона_(332а):1а"|_
-6	хрѹшьки<lbr/>н[иц]-	Хрушкиничь	ADJ	_	Case=Acc|Gender=Masc|Number=Sing|Poss=Yes	5	flat:name	_	wf="хрѹшькиниц-"|comment="pos_unsure"|comment=number_unsure|comment=poss_unsure|comment=case_unsure|addr="332:_Внешняя_сторона_(332а):1а"|_
-7	(шело)мъ	шеломъ	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	4	iobj	_	wf="шеломъ"|comment=lemma_unsure|addr="332:_Внешняя_сторона_(332а):2а"|line_id=2а|_
+6	хрѹшьки<lbr/>н[иц]-	Хрушкиничь	ADJ	_	Case=Gen|Gender=Masc|Number=Sing|Poss=Yes	5	flat:name	_	wf="хрѹшькиниц-"|comment="pos_unsure"|comment=number_unsure|comment=poss_unsure|comment=case_unsure|addr="332:_Внешняя_сторона_(332а):1а"|_
+7	(шело)мъ	шеломъ	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	4	obj	_	wf="шеломъ"|comment=lemma_unsure|addr="332:_Внешняя_сторона_(332а):2а"|line_id=2а|_
 8	и	и	CCONJ	_	_	9	cc	_	wf="и"|addr="332:_Внешняя_сторона_(332а):2а"|_
 9	брънѣ	бронѧ	NOUN	_	Case=Acc|Gender=Fem|Number=Plur	7	conj	_	wf="брънѣ"|addr="332:_Внешняя_сторона_(332а):2а"|_
 10	и	и	CCONJ	_	_	11	cc	_	wf="и"|addr="332:_Внешняя_сторона_(332а):2а"|_
@@ -5493,7 +5493,7 @@
 # text = у вдовкинꙑ·хъ дѣтѣӏ на тꙑхъ · сохахъ · сѣмѧнъ нѣту ни дѣжѣ
 1	у	у	ADP	_	_	3	case	_	wf="у"|addr="353:2"|_
 2	вдовкинꙑ·хъ	вдовкинъ	ADJ	_	Case=Gen|Number=Plur|Poss=Yes	3	amod	_	wf="вдовкинꙑ·хъ"|addr="353:2"|_
-3	дѣтѣӏ	дѣти	NOUN	_	Case=Gen|Number=Plur	10	obl	_	wf="дѣтѣӏ"|comment=pl_tant|addr="353:2"|_
+3	дѣтѣӏ	дѣти	NOUN	_	Case=Gen|Gender=Neut|Number=Plur	10	obl	_	wf="дѣтѣӏ"|comment=pl_tant|addr="353:2"|_
 4	на	на	ADP	_	_	7	case	_	wf="на"|addr="353:3"|line_id=3|_
 5	тꙑхъ	тотъ	DET	_	Case=Loc|Number=Plur	7	det	_	wf="тꙑхъ"|addr="353:3"|_
 6	·	·	PUNCT	_	_	7	punct	_	wf="·"|_
@@ -5775,7 +5775,7 @@
 10	с	съ	ADP	_	_	11	case	_	wf="с"|addr="358:2"|_
 11	кимъ	кто	PRON	_	Case=Ins|PronType=Rel	13	obl	_	wf="кимъ"|addr="358:2"|_
 12	будешъ	быти	AUX	_	Analyt=Yes|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin|Voice=Act	13	aux	_	wf="будешъ"|addr="358:2"|_
-13	послалъ	послати	VERB	_	Gender=Masc|Number=Sing|Person=2|Tense=Past|VerbForm=PartRes|Voice=Act	9	acl	_	wf="послалъ"|tense=fut2,perf|addr="358:2"|_
+13	послалъ	послати	VERB	_	Analyt=Yes|Gender=Masc|Number=Sing|Tense=Past|VerbForm=PartRes|Voice=Act	9	acl	_	wf="послалъ"|tense=fut2,perf|addr="358:2"|_
 14	·	·	PUNCT	_	_	6	punct	_	wf="·"|_
 
 # sent_id = 358-4
@@ -5890,7 +5890,7 @@
 1	а	а	CCONJ	_	_	5	cc	_	wf="а"|addr="373:3"|line_id=3|_
 2	здисе	сдѣсе	ADV	_	_	5	advmod	_	wf="здисе"|addr="373:3"|_
 3	кѹрила	Курила	PROPN	_	Case=Nom|Gender=Masc|NameType=Giv|Number=Sing	5	nsubj	_	wf="кѹрила"|addr="373:3"|_
-4	мезенъ	мезень	NOUN	_	Case=Acc|Number=Sing	3	flat:name	_	wf="мезенъ"|comment=lemma_unsure|meaning="семга,_вылавливаемая_в_середине_лета"|addr="373:3"|_
+4	мезенъ	мезень	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	3	flat:name	_	wf="мезенъ"|comment=lemma_unsure|meaning="семга,_вылавливаемая_в_середине_лета"|addr="373:3"|_
 5	ѿꙗлъ	отъꙗти	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=PartRes|Voice=Act	0	root	_	wf="ѿꙗлъ"|tense=perf|addr="373:3"|_
 6	ӏ	и	CCONJ	_	_	7	cc	_	wf="ӏ"|addr="373:3"|_
 7	куни	куна	NOUN	_!	Case=Acc|Gender=Fem|Number=Plur	5	conj	_	wf="куни"|comment=lemma_unsure|ctxt_comment="мн._в_знач._деньги"|meaning="денежная_единица_(часто_записывается_сокращенно)"|addr="373:3"|_
@@ -5996,14 +5996,14 @@
 14	бꙑ	быти	AUX	_	Analyt=Yes|Mood=Cnd|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	15	aux	_	wf="бꙑ"|tense=aor|comment=CONJ|comment=in_compound_CONJ|addr="389:2"|_
 15	дати	дати	VERB	_	VerbForm=Inf|Voice=Act	8	acl	_	wf="дати"|addr="389:2"|_
 16	:	:	PUNCT	_	_	17	punct	_	wf=":"|_
-17	кѹнꙑ	куна	NOUN	_	Case=Nom|Gender=Fem|Number=Plur	15	obj	_	wf="кѹнꙑ"|ctxt_comment="мн._в_знач._деньги"|meaning="денежная_единица_(часто_записывается_сокращенно)"|addr="389:2"|_
+17	кѹнꙑ	куна	NOUN	_	Case=Acc|Gender=Fem|Number=Plur	15	obj	_	wf="кѹнꙑ"|ctxt_comment="мн._в_знач._деньги"|meaning="денежная_единица_(часто_записывается_сокращенно)"|addr="389:2"|_
 18	:	:	PUNCT	_	_	21	punct	_	wf=":"|_
 19	на	на	ADP	_	_	21	case	_	wf="на"|addr="389:2"|_
 20	пьтровъ	Петровъ	ADJ	_	Case=Acc|Gender=Masc|Number=Sing|Poss=Yes	21	amod	_	wf="пьтровъ"|addr="389:2"|_
 21	дн҃ь	день	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	15	obl	_	wf="дн҃ь"|addr="389:2"|_
 22	:	:	PUNCT	_	_	24	punct	_	wf=":"|_
 23	в	въ	ADP	_	_	24	case	_	wf="в"|addr="389:2"|_
-24	[р]ѹса[л]ь…	русальѣ	NOUN	_	Case=Acc|Number=Plur	21	appos	_	wf="рѹсаль…"|comment=pl_tant|addr="389:2"|_
+24	[р]ѹса[л]ь…	русальѣ	NOUN	_	Case=Acc|Gender=Fem|Number=Plur	21	appos	_	wf="рѹсаль…"|comment=pl_tant|addr="389:2"|_
 25	(…)	(…)	PUNCT	_	_	6	punct	_	wf="(…)"|line_id=3|_
 
 # newdoc id = texts/birchbark/400
@@ -6247,7 +6247,7 @@
 15	тоби	ты	PRON	_	Case=Dat|Number=Sing|Person=2	19	iobj	_	wf="тоби"|comment="clitic_ton"|addr="413:4"|_
 16	своему	свои	DET	_	Case=Dat|Gender=Masc|Number=Sing	17	det	_	wf="своему"|addr="413:5"|line_id=5|_
 17	ѻсподину	осподинъ	NOUN	_	Case=Dat|Gender=Masc|Number=Sing	15	appos	_	wf="ѻсподину"|addr="413:5"|_
-18	цоломь	чело	NOUN	_	Case=Ins|Gender=Neut|Number=Sing	19	iobj	_	wf="цоломь"|addr="413:5"|_
+18	цоломь	чело	NOUN	_	Case=Ins|Gender=Neut|Number=Sing	19	obj	_	wf="цоломь"|addr="413:5"|_
 19	би<lbr/>ю	бити	VERB	_	Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	7	conj	_	wf="бию"|comment="tense_nonpast"|addr="413:5"|_
 20	в	въ	ADP	_	_	21	case	_	wf="в"|addr="413:6"|line_id=6|_
 21	коробки	коробокъ	NOUN	_	Case=Loc|Gender=Masc|Number=Sing	19	obl	_	wf="коробки"|addr="413:6"|_
@@ -6295,7 +6295,7 @@
 13	-од…	-од…	X	_	_	1	dep	_	wf="-од…"|addr="429:2"|_
 14	шьсть	шесть	NUM	_	Case=Nom|NumType=Card	15	nummod:gov	_	wf="шьсть"|addr="429:3"|line_id=3|_
 15	гѹбиць	губица	NOUN	_	Case=Gen|Gender=Fem|Number=Plur	1	conj	_	wf="гѹбиць"|meaning="губка"|addr="429:3"|_
-16	пьрьни	перни	NOUN	_	Case=Nom|Number=Plur	1	conj	_	wf="пьрьни"|comment=pl_tant|meaning="перина,_постель_(?)"|addr="429:3"|_
+16	пьрьни	перни	NOUN	_	Case=Nom|Gender=Fem|Number=Plur	1	conj	_	wf="пьрьни"|comment=pl_tant|meaning="перина,_постель_(?)"|addr="429:3"|_
 17	и	и	CCONJ	_	_	18	cc	_	wf="и"|addr="429:3"|_
 18	възогъловие	взголовьѥ	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	16	conj	_	wf="възогъловие"|addr="429:3"|_
 19	лѹдиц…	лудица	NOUN	_	Gender=Fem	1	conj	_	wf="лѹдиц…"|meaning="плащик"|addr="429:3"|_
@@ -6770,7 +6770,7 @@
 3	ѻспн҃е	осподинъ	NOUN	_	Case=Voc|Gender=Masc|Number=Sing	10	vocative	_	wf="ѻспн҃е"|addr="494/469:6"|_
 4	на	на	ADP	_	_	5	case	_	wf="на"|addr="494/469:6"|_
 5	правку	правка	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	10	obl	_	wf="правку"|meaning="судебное_разбирательство"|addr="494/469:6"|_
-6	бъ	бы	AUX	_!	Mood=Cnd	10	aux	_	wf="бъ"|addr="494/469:6"|_
+6	бъ	бы	AUX	_	Mood=Cnd	10	aux	_	wf="бъ"|addr="494/469:6"|_
 7	ӏ	и	CCONJ	_	_	9	cc	_	wf="ӏ"|addr="494/469:6"|_
 8	на	на	ADP	_	_	9	case	_	wf="на"|addr="494/469:6"|_
 9	поруку	порука	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	5	conj	_	wf="поруку"|addr="494/469:6"|_
@@ -7217,7 +7217,7 @@
 2	нꙑне	нынѣ	ADV	_	_	3	advmod	_	wf="нꙑне"|addr="531:_Внутренняя_сторона:2а"|_
 3	извета	извѣтати	VERB	_	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	wf="извета"|comment=no_j|meaning="заявить_о_правонарушении"|addr="531:_Внутренняя_сторона:2а"|_
 4	емѹ	и	PRON	_	Case=Dat|Gender=Masc|Number=Sing	3	iobj	_	wf="емѹ"|addr="531:_Внутренняя_сторона:2а"|_
-5	людеми	людьѥ	NOUN	_	Case=Ins|Number=Plur	3	obl	_	wf="людеми"|comment=pl_tant|addr="531:_Внутренняя_сторона:2а"|_
+5	людеми	людьѥ	NOUN	_	Case=Ins|Gender=Masc|Number=Plur	3	obl	_	wf="людеми"|comment=pl_tant|addr="531:_Внутренняя_сторона:2а"|_
 6	како	како	SCONJ	_	_	8	mark	_	wf="како"|addr="531:_Внутренняя_сторона:2а"|_
 7	еси	быти	AUX	_	Analyt=Yes|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	8	aux	_	wf="еси"|addr="531:_Внутренняя_сторона:2а"|_
 8	возложило	взложити	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=PartRes|Voice=Act	33	advcl	_	wf="возложило"|tense=perf|addr="531:_Внутренняя_сторона:2а"|_
@@ -7301,17 +7301,17 @@
 # text = оже бѹдѹ люди на мою сьтрѹ оже бѹдѹ люди при комо бѹдѹ дала рѹкѹ за зѧте то те ѧ во вине
 1	оже	оже	SCONJ	_	_	2	mark	_	wf="оже"|addr="531:_Внешняя_сторона:1б"|line_id=1б|_
 2	бѹдѹ	быти	VERB	_	Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	21	advcl	_	wf="бѹдѹ"|addr="531:_Внешняя_сторона:1б"|_
-3	люди	людьѥ	NOUN	_	Case=Nom|Number=Plur	2	nsubj	_	wf="люди"|comment=pl_tant|addr="531:_Внешняя_сторона:1б"|_
+3	люди	людьѥ	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	wf="люди"|comment=pl_tant|addr="531:_Внешняя_сторона:1б"|_
 4	на	на	ADP	_	_	6	case	_	wf="на"|addr="531:_Внешняя_сторона:1б"|_
 5	мою	мои	DET	_	Case=Acc|Gender=Fem|Number=Sing	6	det	_	wf="мою"|addr="531:_Внешняя_сторона:1б"|_
 6	сьтрѹ	сестра	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	2	obl	_	wf="сьтрѹ"|addr="531:_Внешняя_сторона:1б"|_
 7	оже	оже	SCONJ	_	_	8	mark	_	wf="оже"|addr="531:_Внешняя_сторона:1б"|_
 8	бѹдѹ	быти	VERB	_	Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	2	conj	_	wf="бѹдѹ"|addr="531:_Внешняя_сторона:1б"|_
-9	люди	людьѥ	NOUN	_	Case=Nom|Number=Plur	8	nsubj	_	wf="люди"|comment=pl_tant|addr="531:_Внешняя_сторона:1б"|_
+9	люди	людьѥ	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	wf="люди"|comment=pl_tant|addr="531:_Внешняя_сторона:1б"|_
 10	при	при	ADP	_	_	11	case	_	wf="при"|addr="531:_Внешняя_сторона:1б"|_
 11	комо	кто	PRON	_	Case=Loc|PronType=Rel	13	obl	_	wf="комо"|addr="531:_Внешняя_сторона:1б"|_
 12	бѹдѹ	быти	AUX	_	Analyt=Yes|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	13	aux	_	wf="бѹдѹ"|addr="531:_Внешняя_сторона:1б"|_
-13	дала	дати	VERB	_	Analyt=Yes|Gender=Fem|Number=Sing|Person=1|Tense=Past|VerbForm=PartRes|Voice=Act	9	acl:relcl	_	wf="дала"|tense=fut2,perf|addr="531:_Внешняя_сторона:1б"|_
+13	дала	дати	VERB	_	Analyt=Yes|Gender=Fem|Number=Sing|Tense=Past|VerbForm=PartRes|Voice=Act	9	acl:relcl	_	wf="дала"|tense=fut2,perf|addr="531:_Внешняя_сторона:1б"|_
 14	рѹкѹ	рука	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	13	obj	_	wf="рѹкѹ"|addr="531:_Внешняя_сторона:1б"|_
 15	за	за	ADP	_	_	16	case	_	wf="за"|addr="531:_Внешняя_сторона:1б"|_
 16	зѧте	зѧть	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	13	obl	_	wf="зѧте"|addr="531:_Внешняя_сторона:1б"|_
@@ -7338,7 +7338,7 @@
 11	порѹкѹ	порука	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	6	conj	_	wf="порѹкѹ"|addr="531:_Внешняя_сторона:2б"|_
 12	а	а	CCONJ	_	_	13	cc	_	wf="а"|addr="531:_Внешняя_сторона:2б"|_
 13	бѹдѹ	быти	VERB	_	Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	4	conj	_	wf="бѹдѹ"|addr="531:_Внешняя_сторона:2б"|_
-14	люди	людьѥ	NOUN	_	Case=Nom|Number=Plur	13	nsubj	_	wf="люди"|comment=pl_tant|addr="531:_Внешняя_сторона:2б"|_
+14	люди	людьѥ	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	13	nsubj	_	wf="люди"|comment=pl_tant|addr="531:_Внешняя_сторона:2б"|_
 15	на	на	ADP	_	_	16	case	_	wf="на"|addr="531:_Внешняя_сторона:2б"|_
 16	томо	тотъ	DET	_	Case=Loc|Gender=Neut|Number=Sing	13	obl	_	wf="томо"|addr="531:_Внешняя_сторона:2б"|_
 17	тобе	ты	PRON	_	Case=Dat|Number=Sing|Person=2	19	iobj	_	wf="тобе"|comment="clitic_ton"|addr="531:_Внешняя_сторона:2б"|_
@@ -7372,7 +7372,7 @@
 3	моѧ	мои	DET	_	Case=Nom|Gender=Fem|Number=Sing	4	det	_	wf="моѧ"|addr="531:_Внешняя_сторона:3б"|_
 4	доци	дчи	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	wf="доци"|addr="531:_Внешняя_сторона:3б"|_
 5	кѹнꙑ	куна	NOUN	_	Case=Acc|Gender=Fem|Number=Plur	2	obj	_	wf="кѹнꙑ"|ctxt_comment="мн._в_знач._деньги"|meaning="денежная_единица_(часто_записывается_сокращенно)"|addr="531:_Внешняя_сторона:3б"|_
-6	людеми	людьѥ	NOUN	_	Case=Ins|Number=Plur	2	iobj	_	wf="людеми"|comment=pl_tant|addr="531:_Внешняя_сторона:3б"|_
+6	людеми	людьѥ	NOUN	_	Case=Ins|Gender=Masc|Number=Plur	2	iobj	_	wf="людеми"|comment=pl_tant|addr="531:_Внешняя_сторона:3б"|_
 7	с	съ	ADP	_	_	8	case	_	wf="с"|addr="531:_Внешняя_сторона:3б"|_
 8	ꙑзвето<lbr/>мо	извѣтъ	NOUN	_	Case=Ins|Gender=Masc|Number=Sing	2	obl	_	wf="ꙑзветомо"|meaning="публичное_объявление_+_заявление_о_правонарушении"|addr="531:_Внешняя_сторона:3б"|_
 9	а	а	CCONJ	_	_	11	cc	_	wf="а"|addr="531:_Внешняя_сторона:4б"|line_id=4б|_
@@ -7403,7 +7403,7 @@
 18	:д҃:	·д҃·	NUM	_	NumForm=Digit|NumType=Card	19	nummod:gov	_	wf=":д҃:"|addr="531:_Внешняя_сторона:5б"|_
 19	дворѧно	дворѧнинъ	NOUN	_	Case=Acc|Gender=Masc|Number=Count	17	obj	_	wf="дворѧно"|addr="531:_Внешняя_сторона:5б"|_
 20	по	по	ADP	_	_	21	case	_	wf="по"|comment=case_gvrn_unsure|addr="531:_Внешняя_сторона:5б"|_
-21	гривене	гривна	NOUN	_	Case=Acc|Gender=Fem|Number=Plur	17	obj	_	wf="гривене"|comment=number_unsure|comment=case_unsure|addr="531:_Внешняя_сторона:5б"|_
+21	гривене	гривна	NOUN	_	Case=Acc|Gender=Fem|Number=Plur	17	obl	_	wf="гривене"|comment=number_unsure|comment=case_unsure|addr="531:_Внешняя_сторона:5б"|_
 22	сьбра	серебро	NOUN	_	Case=Gen|Gender=Neut|Number=Sing	21	nmod	_	wf="сьбра"|addr="531:_Внешняя_сторона:5б"|_
 
 # newdoc id = texts/birchbark/534
@@ -7549,7 +7549,7 @@
 3	с	съ	ADP	_	_	6	case	_	wf="с"|addr="536:7"|_
 4	тꙑми	тотъ	DET	_	Case=Ins|Number=Plur	6	det	_	wf="тꙑми"|addr="536:7"|_
 5	же	же	PART	_	_	4	advmod	_	wf="же"|comment=ident|addr="536:7"|_
-6	людьми	людьѥ	NOUN	_	Case=Ins|Number=Plur	2	obl	_	wf="людьми"|comment=pl_tant|addr="536:7"|_
+6	людьми	людьѥ	NOUN	_	Case=Ins|Gender=Masc|Number=Plur	2	obl	_	wf="людьми"|comment=pl_tant|addr="536:7"|_
 
 # sent_id = 536-6
 # sent_transl_ru = Да пошли сапожных гвоздей (?) на деньгу.
@@ -7584,7 +7584,7 @@
 2	поса(днику)	посадникъ	NOUN	_	Gender=Masc	1	appos	_	wf="посаднику"|addr="543:1"|_
 3	…	…	PUNCT	_	_	4	punct	_	wf="…"|_
 4	(бьѥть	бити	VERB	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	wf="бьѥть"|comment="tense_nonpast"|comment=reconstr|addr="543:2"|line_id=2|_
-5	че)ломь	чело	NOUN	_	Case=Ins|Gender=Neut|Number=Sing	4	iobj	_	wf="челомь"|addr="543:2"|_
+5	че)ломь	чело	NOUN	_	Case=Ins|Gender=Neut|Number=Sing	4	obj	_	wf="челомь"|addr="543:2"|_
 6	…	…	PUNCT	_	_	4	punct	_	wf="…"|_
 
 # sent_id = 543-2
@@ -7786,7 +7786,7 @@
 10	бири<lbr/>чю	биричь	NOUN	_	Case=Dat|Gender=Masc|Number=Sing	9	iobj	_	wf="биричю"|addr="578:2"|_
 11	·	·	PUNCT	_	_	14	punct	_	wf="·"|line_id=3|_
 12	а	а	CCONJ	_	_	14	cc	_	wf="а"|addr="578:3"|_
-13	грамота	грамота	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	14	obj	_	wf="грамота"|addr="578:3"|_
+13	грамота	грамота	NOUN	Case=Nom1	Case=Nom|Gender=Fem|Number=Sing	14	obj	_	wf="грамота"|addr="578:3"|_
 14	взѧть	взѧти	VERB	_	VerbForm=Inf|Voice=Act	9	conj	_	wf="взѧть"|addr="578:3"|_
 15	·	·	PUNCT	_	_	9	punct	_	wf="·"|_
 
@@ -7798,7 +7798,7 @@
 2	будешь	быти	AUX	_	Analyt=Yes|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin|Voice=Act	5	aux	_	wf="будешь"|addr="578:3"|_
 3	·	·	PUNCT	_	_	5	punct	_	wf="·"|_
 4	грамоту	грамота	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	wf="грамоту"|addr="578:3"|_
-5	взѧла	взѧти	VERB	_	Analyt=Yes|Gender=Fem|Number=Sing|Person=2|Tense=Past|VerbForm=PartRes|Voice=Act	7	advcl	_	wf="взѧла"|tense=fut2,perf|addr="578:4"|line_id=4|_
+5	взѧла	взѧти	VERB	_	Analyt=Yes|Gender=Fem|Number=Sing|Tense=Past|VerbForm=PartRes|Voice=Act	7	advcl	_	wf="взѧла"|tense=fut2,perf|addr="578:4"|line_id=4|_
 6	·	·	PUNCT	_	_	7	punct	_	wf="·"|_
 7	даи	даꙗти	VERB	_	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	wf="даи"|addr="578:4"|_
 8	ꙩнтану	Онтанъ	PROPN	_	Case=Dat|Gender=Masc|NameType=Giv|Number=Sing	7	iobj	_	wf="ꙩнтану"|addr="578:4"|_
@@ -8034,7 +8034,7 @@
 5	братьче	братець	NOUN	_	Case=Voc|Gender=Masc|Number=Sing	2	vocative	_	wf="братьче"|addr="605:7"|_
 6	мои	мои	DET	_!	Case=Nom|Gender=Masc|Number=Sing	5	det	_	wf="мои"|addr="605:7"|_
 7	то	тотъ	DET	_	Case=Acc|Gender=Neut|Number=Sing	10	obj	_	wf="то"|addr="605:8"|line_id=8|_
-8	си	си	PART	_	_	10	obj	_	wf="си"|addr="605:8"|_
+8	си	си	PART	_	_	10	advmod	_	wf="си"|addr="605:8"|_
 9	хотѧ	хотѧ	PART	_	_	10	advmod	_	wf="хотѧ"|addr="605:8"|_
 10	мълви	молвити	VERB	_	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	2	advcl	_	wf="мълви"|addr="605:8"|_
 
@@ -8174,7 +8174,7 @@
 # sent_transl_ru = А что заплатишь — за это я рассчитаюсь.
 # sent_transl_en = 
 # text = (д)але будьше а то сѧ ведаю …
-1	(д)але	дати	VERB	_	Analyt=Yes|Gender=Masc|Number=Sing|Person=2|Tense=Past|VerbForm=PartRes|Voice=Act	6	advcl	_	wf="дале"|tense=fut2,perf|comment=tense_unsure|addr="616:2"|_
+1	(д)але	дати	VERB	_	Analyt=Yes|Gender=Masc|Number=Sing|Tense=Past|VerbForm=PartRes|Voice=Act	6	advcl	_	wf="дале"|tense=fut2,perf|comment=tense_unsure|addr="616:2"|_
 2	будьше	быти	AUX	_	Analyt=Yes|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin|Voice=Act	1	aux	_	wf="будьше"|comment=tense_unsure|addr="616:2"|_
 3	а	а	CCONJ	_	_	6	cc	_	wf="а"|addr="616:2"|_
 4	то	то	DET	_	_	6	nsubj	_	wf="то"|comment="pos_unsure"|comment=CONJ?|addr="616:2"|_
@@ -8243,7 +8243,7 @@
 7	прислати	прислати	VERB	_	VerbForm=Inf|Voice=Act	0	root	_	wf="прислати"|addr="627:1"|_
 8	ти	ты	PRON	_	Case=Dat|Clitic=Yes|Number=Sing|Person=2	7	iobj	_	wf="ти"|addr="627:1"|_
 9	…	…	PUNCT	_	_	10	punct	_	wf="…"|line_id=2|_
-10	(к)[е](н)[да]р[ѧ	кендарь	NOUN	_	Case=Nom|Gender=Masc|Number=Count	7	obj	_	wf="кендарѧ"|comment=adnum_unsure|comment=case_unsure|meaning="мера_веса"|addr="627:2"|_
+10	(к)[е](н)[да]р[ѧ	кендарь	NOUN	_	Case=Acc|Gender=Masc|Number=Count	7	obj	_	wf="кендарѧ"|comment=adnum_unsure|comment=case_unsure|meaning="мера_веса"|addr="627:2"|_
 11	соли	соль	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	wf="соли"|addr="627:2"|_
 
 # sent_id = 627-3
@@ -8339,7 +8339,7 @@
 1	аж[ь]	аже	SCONJ	_	_	2	mark	_	wf="ажь"|addr="638:4"|_
 2	избѹдѹ	избыти	VERB	_	Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	6	advcl	_	wf="избѹдѹ"|comment="tense_nonpast"|addr="638:4"|_
 3	[долга]	долгъ	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	2	obj	_	wf="долга"|addr="638:4"|_
-4	(сего)	сеи	DET	_	Case=Gen|Gender=Masc|Number=Sing	2	obj	_	wf="сего"|comment=reconstr|addr="638:4"|_
+4	(сего)	сеи	DET	_	Case=Gen|Gender=Masc|Number=Sing	3	det	_	wf="сего"|comment=reconstr|addr="638:4"|_
 5	то	то	SCONJ	_	_	6	mark	_	wf="то"|addr="638:5"|line_id=5|_
 6	восолю	вослати	VERB	_	Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	wf="восолю"|comment="tense_nonpast"|addr="638:5"|_
 7	попрѣдьно	попрѣдно	ADV	_	_	6	advmod	_	wf="попрѣдьно"|comment=lemma_unsure|meaning="заранее"|addr="638:5"|_
@@ -8388,12 +8388,12 @@
 2	ѹ	у	ADP	_	_	3	case	_	wf="ѹ"|addr="640:4"|_
 3	д[ьѧ]къ	дьꙗкъ	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	0	root	_	wf="дьѧкъ"|comment=lemma_unsure|addr="640:4"|_
 4	ѹ	у	ADP	_	_	5	case	_	wf="ѹ"|addr="640:4"|_
-5	хѹдꙑцѧ	Худычь	PROPN	_	Case=Gen|Gender=Masc|NameType=Giv|Number=Sing	3	flat:name	_	wf="хѹдꙑцѧ"|addr="640:4"|_
+5	хѹдꙑцѧ	Худычь	PROPN	_	Case=Gen|Gender=Masc|NameType=Giv|Number=Sing	7	orphan	_	wf="хѹдꙑцѧ"|addr="640:4"|_
 6	·г·	·г҃·	NUM	_	NumForm=Digit|NumType=Card	7	nummod:gov	_	wf="·г·"|addr="640:4"|_
-7	рѣзанѣ	рѣзана	NOUN	_	Case=Nom|Gender=Fem|Number=Count	3	nsubj	_	wf="рѣзанѣ"|addr="640:4"|_
-8	а	а	CCONJ	_	_	9	cc	_	wf="а"|addr="640:4"|_
-9	собѣ	себе	PRON	_	Case=Dat	3	conj	_	wf="собѣ"|comment="clitic_ton"|addr="640:4"|_
-10	[кѹ]нѹ	куна	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	9	nsubj	_	wf="кѹнѹ"|meaning="денежная_единица_(часто_записывается_сокращенно)"|addr="640:4"|_
+7	рѣзанѣ	рѣзана	NOUN	_	Case=Nom|Gender=Fem|Number=Count	3	parataxis	_	wf="рѣзанѣ"|addr="640:4"|_
+8	а	а	CCONJ	_	_	10	cc	_	wf="а"|addr="640:4"|_
+9	собѣ	себе	PRON	_	Case=Dat	10	orphan	_	wf="собѣ"|comment="clitic_ton"|addr="640:4"|_
+10	[кѹ]нѹ	куна	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	7	conj	_	wf="кѹнѹ"|meaning="денежная_единица_(часто_записывается_сокращенно)"|addr="640:4"|_
 
 # sent_id = 640-4
 # sent_transl_ru = А из добрычевичей (жителей деревни Добрычево или потомков Добрыча, что, впрочем, может сводиться к одному и тому же) — у Романича куну, а себе куну, [у такого-то] куну, а себе куну.
@@ -8403,16 +8403,16 @@
 2	ѹ	у	ADP	_	_	3	case	_	wf="ѹ"|addr="640:4"|_
 3	добрꙑцевиць	Добрычевичь	PROPN	_	Case=Gen|Gender=Masc|NameType=Pat|Number=Plur	0	root	_	wf="добрꙑцевиць"|addr="640:4"|_
 4	ѹ	у	ADP	_	_	5	case	_	wf="ѹ"|addr="640:4"|_
-5	рома<lbr/>ни[цѧ]	Романичь	PROPN	_	Case=Gen|Gender=Masc|NameType=Pat|Number=Sing	3	flat:name	_	wf="романицѧ"|addr="640:4"|_
-6	к[ѹнѹ	куна	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	3	nsubj	_	wf="кѹнѹ"|meaning="денежная_единица_(часто_записывается_сокращенно)"|addr="640:5"|line_id=5|_
-7	а	а	CCONJ	_	_	8	cc	_	wf="а"|addr="640:5"|_
-8	собѣ]	себе	PRON	_	Case=Dat	3	conj	_	wf="собѣ"|comment="clitic_ton"|addr="640:5"|_
-9	кѹ[нѹ]	куна	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	8	nsubj	_	wf="кѹнѹ"|meaning="денежная_единица_(часто_записывается_сокращенно)"|addr="640:5"|_
-10	-----------	-----------	X	_	_	3	conj	_	wf="-----------"|addr="640:5"|_
-11	(кѹ)нѹ	куна	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	10	nsubj	_	wf="кѹнѹ"|meaning="денежная_единица_(часто_записывается_сокращенно)"|addr="640:5"|_
-12	а	а	CCONJ	_	_	13	cc	_	wf="а"|addr="640:5"|_
-13	собѣ	себе	PRON	_	Case=Dat	3	conj	_	wf="собѣ"|comment="clitic_ton"|addr="640:5"|_
-14	кѹнѹ	куна	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	13	nsubj	_	wf="кѹнѹ"|meaning="денежная_единица_(часто_записывается_сокращенно)"|addr="640:5"|_
+5	рома<lbr/>ни[цѧ]	Романичь	PROPN	_	Case=Gen|Gender=Masc|NameType=Pat|Number=Sing	6	orphan	_	wf="романицѧ"|addr="640:4"|_
+6	к[ѹнѹ	куна	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	3	parataxis	_	wf="кѹнѹ"|meaning="денежная_единица_(часто_записывается_сокращенно)"|addr="640:5"|line_id=5|_
+7	а	а	CCONJ	_	_	9	cc	_	wf="а"|addr="640:5"|_
+8	собѣ]	себе	PRON	_	Case=Dat	9	orphan	_	wf="собѣ"|comment="clitic_ton"|addr="640:5"|_
+9	кѹ[нѹ]	куна	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	6	conj	_	wf="кѹнѹ"|meaning="денежная_единица_(часто_записывается_сокращенно)"|addr="640:5"|_
+10	-----------	-----------	X	_	_	11	dep	_	wf="-----------"|addr="640:5"|_
+11	(кѹ)нѹ	куна	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	6	conj	_	wf="кѹнѹ"|meaning="денежная_единица_(часто_записывается_сокращенно)"|addr="640:5"|_
+12	а	а	CCONJ	_	_	14	cc	_	wf="а"|addr="640:5"|_
+13	собѣ	себе	PRON	_	Case=Dat	14	orphan	_	wf="собѣ"|comment="clitic_ton"|addr="640:5"|_
+14	кѹнѹ	куна	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	6	conj	_	wf="кѹнѹ"|meaning="денежная_единица_(часто_записывается_сокращенно)"|addr="640:5"|_
 
 # newdoc id = texts/birchbark/649_650
 # date_created = 1200-1220
@@ -8666,7 +8666,7 @@
 10	полотевица	Полтевичь	PROPN	_	Case=Gen|Gender=Masc|NameType=Pat|Number=Sing	8	obl	_	wf="полотевица"|addr="665:3"|_
 11	н	на	ADP	_	_	13	case	_	wf="н"|comment=unfinished|addr="665:3"|_
 12	три	триѥ	NUM	_	Case=Acc|Gender=Fem|NumType=Card	13	nummod:gov	_	wf="три"|addr="665:3"|_
-13	гривьнь	гривна	NOUN	_	Case=Acc|Gender=Fem|Number=Count	8	obj	_	wf="гривьнь"|addr="665:3"|_
+13	гривьнь	гривна	NOUN	_	Case=Acc|Gender=Fem|Number=Count	6	nmod	_	wf="гривьнь"|addr="665:3"|_
 14	а	а	CCONJ	_	_	17	cc	_	wf="а"|addr="665:3"|_
 15	т(о	тотъ	DET	_	Case=Acc|Gender=Neut|Number=Sing	17	obj	_	wf="то"|addr="665:3"|_
 16	есь)[м]о	быти	AUX	_	Analyt=Yes|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	17	aux	_	wf="есьмо"|addr="665:3"|_
@@ -9218,7 +9218,7 @@
 1	оста<lbr/>вили	оставити	VERB	_	Gender=Masc|Number=Plur|Tense=Pqp|VerbForm=PartRes|Voice=Act	0	root	_	wf="оставили"|addr="724:_Внешняя_сторона:1а"|_
 2	мѧ	ꙗзъ	PRON	_	Case=Acc|Clitic=Yes|Number=Sing|Person=1	1	obj	_	wf="мѧ"|addr="724:_Внешняя_сторона:2а"|line_id=2а|_
 3	бꙑли	быти	AUX	_	Analyt=Yes|Gender=Masc|Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	1	aux	_	wf="бꙑли"|addr="724:_Внешняя_сторона:2а"|_
-4	людье	людьѥ	NOUN	_	Case=Nom|Number=Plur	1	nsubj	_	wf="людье"|comment=pl_tant|addr="724:_Внешняя_сторона:2а"|_
+4	людье	людьѥ	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	1	nsubj	_	wf="людье"|comment=pl_tant|addr="724:_Внешняя_сторона:2а"|_
 5	да	да	CCONJ	_	_	8	cc	_	wf="да"|addr="724:_Внешняя_сторона:2а"|_
 6	остать	остать	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	8	obj	_	wf="остать"|meaning="остаток"|addr="724:_Внешняя_сторона:2а"|_
 7	дани	дань	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	wf="дани"|addr="724:_Внешняя_сторона:2а"|_
@@ -9306,7 +9306,7 @@
 9	и	и	CCONJ	_	_	11	cc	_	wf="и"|addr="724:_Внешняя_сторона:10а"|line_id=10а|_
 10	дане	дань	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	11	obj	_	wf="дане"|addr="724:_Внешняя_сторона:10а"|_
 11	ѿѧли	отъꙗти	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	3	conj	_	wf="ѿѧли"|tense=perf|addr="724:_Внешняя_сторона:10а"|_
-12	людье	людьѥ	NOUN	_	Case=Nom|Number=Plur	11	nsubj	_	wf="людье"|comment=pl_tant|addr="724:_Внешняя_сторона:10а"|_
+12	людье	людьѥ	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	wf="людье"|comment=pl_tant|addr="724:_Внешняя_сторона:10а"|_
 13	·	·	PUNCT	_	_	3	punct	_	wf="·"|_
 
 # sent_id = 724-7
@@ -9368,7 +9368,7 @@
 3	ти	ти	PART	_	_	10	advmod	_	wf="ти"|comment=CONJ|comment=in_compound_CONJ|addr="724:_Внутренняя_сторона:2б"|_
 4	брат[ь]е	братьꙗ	NOUN	_	Case=Voc|Gender=Fem|Number=Sing	10	vocative	_	wf="братье"|addr="724:_Внутренняя_сторона:2б"|_
 5	винꙑ	вина	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	10	obj	_	wf="винꙑ"|addr="724:_Внутренняя_сторона:3б"|line_id=3б|_
-6	л[ю]дье	людьѥ	NOUN	_	Case=Nom|Number=Plur	10	nsubj	_	wf="людье"|comment=pl_tant|addr="724:_Внутренняя_сторона:3б"|_
+6	л[ю]дье	людьѥ	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	10	nsubj	_	wf="людье"|comment=pl_tant|addr="724:_Внутренняя_сторона:3б"|_
 7	на	на	ADP	_	_	8	case	_	wf="на"|addr="724:_Внутренняя_сторона:3б"|_
 8	мѧ	ꙗзъ	PRON	_	Case=Acc|Clitic=Yes|Number=Sing|Person=1	10	obl	_	wf="мѧ"|addr="724:_Внутренняя_сторона:3б"|_
 9	не	не	PART	_	_	10	advmod	_	wf="не"|addr="724:_Внутренняя_сторона:3б"|_
@@ -9381,7 +9381,7 @@
 16	нꙑнеца	нынѣча	ADV	_	_	19	advmod	_	wf="нꙑнеца"|addr="724:_Внутренняя_сторона:4б"|_
 17	радъ	радъ	ADJ	_	Case=Nom|Gender=Masc|Number=Sing|Variant=Short	0	root	_	wf="радъ"|addr="724:_Внутренняя_сторона:4б"|_
 18	бꙑхъ	быти	AUX	_	Analyt=Yes|Mood=Cnd|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	17	cop	_	wf="бꙑхъ"|tense=aor|addr="724:_Внутренняя_сторона:4б"|_
-19	послале	послати	VERB	_	Gender=Masc|Mood=Cnd|Number=Sing|Person=1|VerbForm=PartRes|Voice=Act	17	xcomp	_	wf="послале"|addr="724:_Внутренняя_сторона:4б"|_
+19	послале	послати	VERB	_	Analyt=Yes|Gender=Masc|Number=Sing|VerbForm=PartRes|Voice=Act	17	xcomp	_	wf="послале"|addr="724:_Внутренняя_сторона:4б"|_
 20	[грам]о[тꙋ]	грамота	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	19	obj	_	wf="грамотꙋ"|addr="724:_Внутренняя_сторона:4б"|_
 
 # newdoc id = texts/birchbark/727
@@ -9405,7 +9405,7 @@
 # sent_transl_en = + people
 # text = + людие
 1	+	+	SYM	_	_	2	parataxis	_	wf="+"|_
-2	людие	людьѥ	NOUN	_	Case=Nom|Number=Plur	0	root	_	wf="людие"|comment=pl_tant|addr="727:1"|_
+2	людие	людьѥ	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	0	root	_	wf="людие"|comment=pl_tant|addr="727:1"|_
 
 # sent_id = 727-3
 # sent_transl_ru =
@@ -9462,7 +9462,7 @@
 # sent_transl_en = + people
 # text = + людие
 1	+	+	SYM	_	_	2	parataxis	_	wf="+"|_
-2	людие	людьѥ	NOUN	_	Case=Nom|Number=Plur	0	root	_	wf="людие"|comment=pl_tant|addr="727:2"|_
+2	людие	людьѥ	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	0	root	_	wf="людие"|comment=pl_tant|addr="727:2"|_
 
 # sent_id = 727-9
 # sent_transl_ru =
@@ -9492,7 +9492,7 @@
 1	+	+	SYM	_	_	4	parataxis	_	wf="+"|_
 2	та	та	CCONJ	_	_	4	cc	_	wf="та"|comment=in_compound_CONJ|addr="727:3"|_
 3	жь	же	PART	_	_	2	fixed	_	wf="жь"|comment=in_compound_CONJ|addr="727:3"|_
-4	людие	людьѥ	NOUN	_	Case=Nom|Number=Plur	0	root	_	wf="людие"|comment=pl_tant|addr="727:3"|_
+4	людие	людьѥ	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	0	root	_	wf="людие"|comment=pl_tant|addr="727:3"|_
 5	:	:	PUNCT	_	_	7	punct	_	wf=":"|_
 6	хрс҃тъ	Христосъ	PROPN	_	Case=Nom|Gender=Masc|NameType=Giv|Number=Sing	7	nsubj	_	wf="хрс҃тъ"|comment="церк."|meaning="церк."|addr="727:3"|_
 7	въ	воскреснути	VERB	_	Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	4	parataxis	_	wf="въ"|tense=aor|comment="сокращение"|addr="727:3"|_
@@ -9532,7 +9532,7 @@
 # sent_transl_en = + people
 # text = + людье
 1	+	+	SYM	_	_	2	parataxis	_	wf="+"|_
-2	людье	людьѥ	NOUN	_	Case=Nom|Number=Plur	0	root	_	wf="людье"|comment=pl_tant|addr="727:4"|_
+2	людье	людьѥ	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	0	root	_	wf="людье"|comment=pl_tant|addr="727:4"|_
 
 # sent_id = 727-16
 # sent_transl_ru =
@@ -9566,7 +9566,7 @@
 # sent_transl_en = + people
 # text = + людее
 1	+	+	SYM	_	_	2	parataxis	_	wf="+"|_
-2	людее	людьѥ	NOUN	_	Case=Nom|Number=Plur	0	root	_	wf="людее"|comment=pl_tant|addr="727:5"|line_id=5|_
+2	людее	людьѥ	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	0	root	_	wf="людее"|comment=pl_tant|addr="727:5"|line_id=5|_
 
 # sent_id = 727-20
 # sent_transl_ru =
@@ -9698,7 +9698,7 @@
 5	ѹдо	удъ	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	wf="ѹдо"|addr="727:9"|_
 6	ѧзвꙑ	ꙗзва	NOUN	_	Case=Acc|Gender=Fem|Number=Plur	9	obj	_	wf="ѧзвꙑ"|addr="727:9"|_
 7	рꙋкою	рука	NOUN	_	Case=Ins|Gender=Fem|Number=Sing	9	iobj	_	wf="рꙋкою"|addr="727:9"|_
-8	си	себе	PRON	_	Case=Dat|Clitic=Yes	9	obj	_	wf="си"|addr="727:9"|_
+8	си	себе	PRON	_	Case=Dat|Clitic=Yes	9	iobj	_	wf="си"|addr="727:9"|_
 9	испꙑ(тавꙑи)	испытати	VERB	_	Voice=Act	3	parataxis	_	wf="испꙑтавꙑи"|addr="727:9"|_
 
 # newdoc id = texts/birchbark/735
@@ -10516,7 +10516,7 @@
 # text = шидовицихъ ѫ домана ѫ тѹдорова и<lbr/>згоꙗ ї҃ кѹнъ
 1	шидовицихъ	Шидовичи	PROPN	_	Case=Loc|Gender=Masc|NameType=Geo|Number=Plur	3	obl	_	wf="шидовицихъ"|comment=pl_tant|addr="789:2"|_
 2	ѫ	у	ADP	_	_	3	case	_	wf="ѫ"|addr="789:2"|_
-3	домана	Доманъ	PROPN	_!	Case=Gen|Gender=Masc|NameType=Giv|Number=Sing	0	root	_	wf="домана"|addr="789:2"|_
+3	домана	Доманъ	PROPN	_	Case=Gen|Gender=Masc|NameType=Giv|Number=Sing	0	root	_	wf="домана"|addr="789:2"|_
 4	ѫ	у	ADP	_	_	6	case	_	wf="ѫ"|addr="789:2"|_
 5	тѹдорова	Тудоровъ	ADJ	_	Case=Gen|Gender=Masc|Number=Sing|Poss=Yes	6	amod	_	wf="тѹдорова"|addr="789:2"|_
 6	и<lbr/>згоꙗ	изгои	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	3	appos	_	wf="изгоꙗ"|ctxt_comment="выкупившегося_холопа"|addr="789:2"|_
@@ -10747,7 +10747,7 @@
 2	отъ	отъ	ADP	_	_	3	case	_	wf="отъ"|addr="806:_Два_срединных_фрагмента:3а"|_
 3	степана	Степанъ	PROPN	_	Case=Gen|Gender=Masc|NameType=Giv|Number=Sing	5	orphan	_	wf="степана"|addr="806:_Два_срединных_фрагмента:3а"|_
 4	къ	къ	ADP	_	_	5	case	_	wf="къ"|addr="806:_Два_срединных_фрагмента:3а"|_
-5	бе…	Бе…	NOUN	_	Case=Dat	0	root	_	wf="бе…"|addr="806:_Два_срединных_фрагмента:3а"|_
+5	бе…	Бе…	PROPN	_	Case=Dat|Gender=Masc|NameType=Giv|Number=Sing	0	root	_	wf="бе…"|addr="806:_Два_срединных_фрагмента:3а"|_
 
 # page_id = 806: Фрагменты конечной части грамоты:
 # sent_id = 806-7
@@ -11289,7 +11289,7 @@
 9	стъ[р](ъ)вь<lbr/>е	сторовьѥ	NOUN	_	Case=Loc|Gender=Neut|Number=Sing	6	nmod	_	wf="стъръвье"|addr="854:_Внутренняя_сторона:5а"|_
 10	и	и	CCONJ	_	_	12	cc	_	wf="и"|addr="854:_Внутренняя_сторона:6а"|line_id=6а|_
 11	о	о	ADP	_	_	12	case	_	wf="о"|addr="854:_Внутренняя_сторона:6а"|_
-12	дѣтьхъ	дѣти	NOUN	_	Case=Loc|Number=Plur	9	conj	_	wf="дѣтьхъ"|comment=pl_tant|addr="854:_Внутренняя_сторона:6а"|_
+12	дѣтьхъ	дѣти	NOUN	_	Case=Loc|Gender=Neut|Number=Plur	9	conj	_	wf="дѣтьхъ"|comment=pl_tant|addr="854:_Внутренняя_сторона:6а"|_
 
 # page_id = 854: Внешняя сторона
 # sent_id = 854-3
@@ -11313,7 +11313,7 @@
 15	---	---	X	_	_	2	dep	_	wf="---"|addr="854:_Внешняя_сторона:3б"|_
 16	и--зи	и--зи	X	_	_	2	dep	_	wf="и--зи"|addr="854:_Внешняя_сторона:4б"|line_id=4б|_
 17	со	съ	ADP	_	_	18	case	_	wf="со"|addr="854:_Внешняя_сторона:4б"|_
-18	дѣт[ь]ми	дѣти	NOUN	_	Case=Ins|Number=Plur	12	parataxis	_	wf="дѣтьми"|comment=pl_tant|addr="854:_Внешняя_сторона:4б"|_
+18	дѣт[ь]ми	дѣти	NOUN	_	Case=Ins|Gender=Neut|Number=Plur	12	parataxis	_	wf="дѣтьми"|comment=pl_tant|addr="854:_Внешняя_сторона:4б"|_
 19	а	а	CCONJ	_	_	21	cc	_	wf="а"|addr="854:_Внешняя_сторона:4б"|_
 20	вво	въ	ADP	_	_	21	case	_	wf="вво"|addr="854:_Внешняя_сторона:4б"|_
 21	клѣти	клѣть	NOUN	_	Case=Loc|Gender=Fem|Number=Sing	12	conj	_	wf="клѣти"|comment=number_unsure|comment=case_unsure|addr="854:_Внешняя_сторона:4б"|_
@@ -11487,7 +11487,7 @@
 1	пъкланѧние	покланѧниѥ	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	0	root	_	wf="пъкланѧние"|comment=start|addr="870:1"|line_id=1|_
 2	отъ	отъ	ADP	_	_	4	case	_	wf="отъ"|addr="870:1"|_
 3	вьсѣхъ	весь	DET	_	Case=Gen|Number=Plur	4	det	_	wf="вьсѣхъ"|addr="870:1"|_
-4	лѹдье	людьѥ	NOUN	_	Case=Gen|Number=Plur	1	nmod	_	wf="лѹдье"|comment=pl_tant|addr="870:1"|_
+4	лѹдье	людьѥ	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	wf="лѹдье"|comment=pl_tant|addr="870:1"|_
 5	къ	къ	ADP	_	_	6	case	_	wf="къ"|addr="870:1"|_
 6	петръ<lbr/>ви	Петръ	PROPN	_	Case=Dat|Gender=Masc|NameType=Giv|Number=Sing	1	nmod	_	wf="петръви"|addr="870:1"|_
 7	и	и	CCONJ	_	_	9	cc	_	wf="и"|addr="870:2"|line_id=2|_
@@ -11547,7 +11547,7 @@
 # text = то дикати людъе а за ними скотъ
 1	то	то	SCONJ	_	_	3	mark	_	wf="то"|comment=lemma_unsure|addr="877/572:2"|_
 2	дикати	дикатыи	ADJ	_	Case=Nom|Gender=Masc|Number=Plur	3	amod	_	wf="дикати"|comment=lemma_unsure|meaning="диковатый,_полудикий_(?)"|addr="877/572:2"|_
-3	людъе	людьѥ	NOUN	_	Case=Nom|Number=Plur	0	root	_	wf="людъе"|comment=pl_tant|addr="877/572:2"|_
+3	людъе	людьѥ	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	0	root	_	wf="людъе"|comment=pl_tant|addr="877/572:2"|_
 4	а	а	CCONJ	_	_	6	cc	_	wf="а"|addr="877/572:2"|_
 5	за	за	ADP	_	_	6	case	_	wf="за"|addr="877/572:2"|_
 6	ними	и	PRON	_	Case=Ins|Number=Plur	3	conj	_	wf="ними"|addr="877/572:2"|_
@@ -11560,10 +11560,10 @@
 1	а	а	CCONJ	_	_	5	cc	_	wf="а"|addr="877/572:2"|_
 2	ѧ	ꙗзъ	PRON	_	Case=Nom|Number=Sing|Person=1	5	nsubj	_	wf="ѧ"|addr="877/572:2"|_
 3	къ	къ	ADP	_	_	4	case	_	wf="къ"|addr="877/572:2"|_
-4	людъмъ	людьѥ	NOUN	_	Case=Dat|Number=Plur	5	obl	_	wf="людъмъ"|comment=pl_tant|addr="877/572:2"|_
+4	людъмъ	людьѥ	NOUN	_	Case=Dat|Gender=Masc|Number=Plur	5	obl	_	wf="людъмъ"|comment=pl_tant|addr="877/572:2"|_
 5	хо[д]илъ	ходити	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=PartRes|Voice=Act	0	root	_	wf="ходилъ"|tense=perf|comment=without_copula|addr="877/572:2"|_
 6	а	а	CCONJ	_	_	10	cc	_	wf="а"|addr="877/572:3"|line_id=3|_
-7	лю[дъе]	людьѥ	NOUN	_	Case=Nom|Number=Plur	10	nsubj	_	wf="людъе"|comment=pl_tant|addr="877/572:3"|_
+7	лю[дъе]	людьѥ	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	10	nsubj	_	wf="людъе"|comment=pl_tant|addr="877/572:3"|_
 8	-----	-----	X	_	_	10	dep	_	wf="-----"|addr="877/572:3"|_
 9	(не	не	PART	_	_	10	advmod	_	wf="не"|comment=reconstr|addr="877/572:3"|_
 10	въд)[адѧ]	вдати	VERB	_	Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	wf="въдадѧ"|comment="tense_nonpast"|addr="877/572:3"|_
@@ -11816,7 +11816,7 @@
 10	же)нам[и]	жена	NOUN	_	Case=Ins|Gender=Fem|Number=Plur	3	obl	_	wf="женами"|addr="911:3"|_
 11	и	и	CCONJ	_	_	13	cc	_	wf="и"|addr="911:3"|_
 12	съ	съ	ADP	_	_	13	case	_	wf="съ"|addr="911:3"|_
-13	дѣтьми	дѣти	NOUN	_	Case=Ins|Number=Plur	10	conj	_	wf="дѣтьми"|comment=pl_tant|addr="911:3"|_
+13	дѣтьми	дѣти	NOUN	_	Case=Ins|Gender=Neut|Number=Plur	10	conj	_	wf="дѣтьми"|comment=pl_tant|addr="911:3"|_
 14	и	и	CCONJ	_	_	15	cc	_	wf="и"|addr="911:3"|_
 15	до	до	ADP	_	_	3	dep	_	wf="до"|addr="911:3"|_
 16	…	…	PUNCT	_	_	15	punct	_	wf="…"|_
@@ -11929,7 +11929,7 @@
 # text = вь:зѧ<lbr/>лъ : е:си : ѹ : о:тро:{к}ка : мо:е:го : кꙑ:е:вѣ гри:вь:нѹ : се:ре:бра :
 1	вь:зѧ<lbr/>лъ	взѧти	VERB	_	Analyt=Yes|Gender=Masc|Number=Sing|Tense=Past|VerbForm=PartRes|Voice=Act	0	root	_	wf="вь:зѧлъ"|tense=perf|addr="915:1"|_
 2	:	:	PUNCT	_	_	3	punct	_	wf=":"|line_id=2|_
-3	е:си	быти	AUX	_	Analyt=Yes|Number=Sing|Person=2|Tense=Pres|VerbForm=PartRes|Voice=Act	1	aux	_	wf="е:си"|addr="915:2"|_
+3	е:си	быти	AUX	_	Analyt=Yes|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	1	aux	_	wf="е:си"|addr="915:2"|_
 4	:	:	PUNCT	_	_	7	punct	_	wf=":"|_
 5	ѹ	у	ADP	_	_	7	case	_	wf="ѹ"|addr="915:2"|_
 6	:	:	PUNCT	_	_	7	punct	_	wf=":"|_
@@ -12149,7 +12149,7 @@
 1	а	а	CCONJ	_	_	5	cc	_	wf="а"|addr="931:4"|_
 2	ѧзъ	ꙗзъ	PRON	_	Case=Nom|Number=Sing|Person=1	5	nsubj	_	wf="ѧзъ"|addr="931:5"|line_id=5|_
 3	тобѣ	ты	PRON	_	Case=Dat|Number=Sing|Person=2	5	iobj	_	wf="тобѣ"|comment="clitic_ton"|addr="931:5"|_
-4	целомъ	чело	NOUN	_	Case=Ins|Gender=Neut|Number=Sing	5	iobj	_	wf="целомъ"|addr="931:5"|_
+4	целомъ	чело	NOUN	_	Case=Ins|Gender=Neut|Number=Sing	5	obj	_	wf="целомъ"|addr="931:5"|_
 5	бѣю	бити	VERB	_	Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	wf="бѣю"|comment="tense_nonpast"|addr="931:5"|_
 
 # newdoc id = texts/birchbark/937
@@ -12320,7 +12320,7 @@
 1	[ѥ]же	иже	PRON	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Rel	4	obj	_	wf="ѥже"|comment="pos_unsure"|comment=APRO|addr="948:4"|_
 2	буде[ш]е	быти	AUX	_	Analyt=Yes|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin|Voice=Act	4	aux	_	wf="будеше"|addr="948:4"|_
 3	не	не	PART	_	_	4	advmod	_	wf="не"|addr="948:4"|_
-4	ѿда<lbr/>(л)…	отдати	VERB	_	Analyt=Yes|Gender=Masc|Number=Sing|Person=2|Tense=Past|VerbForm=PartRes|Voice=Act	0	root	_	wf="ѿдал…"|tense=fut2,perf|addr="948:4"|after:line_id=5|_
+4	ѿда<lbr/>(л)…	отдати	VERB	_	Analyt=Yes|Gender=Masc|Number=Sing|Tense=Past|VerbForm=PartRes|Voice=Act	0	root	_	wf="ѿдал…"|tense=fut2,perf|addr="948:4"|after:line_id=5|_
 
 # newdoc id = texts/birchbark/949
 # date_created = 1360-1380
@@ -12464,7 +12464,7 @@
 # sent_transl_ru = Челом бьет Олексей от Заболотья (?) Софонтию и Тимофею.
 # sent_transl_en =
 # text = {п}чоломъ бьѥть ꙩлексеі + ѻ заболотьѧ · софонтею · тимоф[ѣ]ю ·
-1	{п}чоломъ	чело	NOUN	_	Case=Ins|Gender=Neut|Number=Sing	2	iobj	_	wf="пчоломъ"|addr="962:1"|line_id=1|_
+1	{п}чоломъ	чело	NOUN	_	Case=Ins|Gender=Neut|Number=Sing	2	obj	_	wf="пчоломъ"|addr="962:1"|line_id=1|_
 2	бьѥть	бити	VERB	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	wf="бьѥть"|comment="tense_nonpast"|addr="962:1"|_
 3	ꙩлексеі	Олексеи	PROPN	_	Case=Nom|Gender=Masc|NameType=Giv|Number=Sing	2	nsubj	_	wf="ꙩлексеі"|addr="962:1"|_
 4	+	+	SYM	_	_	3	parataxis	_	wf="+"|_
@@ -12584,7 +12584,7 @@
 3	вамъ	вы	PRON	_	Case=Dat|Person=2	7	iobj	_	wf="вамъ"|comment="clitic_ton"|addr="962:6"|_
 4	свои	свои	DET	_	Case=Dat|Gender=Fem|Number=Sing	5	det	_	wf="свои"|addr="962:6"|_
 5	ѻсподе	оспода	NOUN	_	Case=Dat|Gender=Fem|Number=Sing	3	appos	_	wf="ѻсподе"|addr="962:6"|_
-6	чоло<lbr/>мъ	чело	NOUN	_	Case=Ins|Gender=Neut|Number=Sing	7	iobj	_	wf="чоломъ"|addr="962:6"|_
+6	чоло<lbr/>мъ	чело	NOUN	_	Case=Ins|Gender=Neut|Number=Sing	7	obj	_	wf="чоломъ"|addr="962:6"|_
 7	бью	бити	VERB	_	Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	wf="бью"|comment="tense_nonpast"|addr="962:7"|line_id=7|_
 8	·	·	PUNCT	_	_	7	punct	_	wf="·"|_
 
@@ -13087,7 +13087,7 @@
 1	…	…	PUNCT	_	_	6	punct	_	wf="…"|line_id=1|_
 2	на	на	ADP	_	_	3	case	_	wf="на"|addr="1002:2"|line_id=2|_
 3	чьлѧди	челѧдь	NOUN	_	Case=Loc|Gender=Fem|Number=Sing	6	obl	_	wf="чьлѧди"|addr="1002:2"|_
-4	[вь]вьричь	вѣверица	NOUN	_	Case=Gen|Gender=Fem|Number=Plur	6	obj	_	wf="вьвьричь"|comment=pl_tant|meaning="деньги"|addr="1002:2"|_
+4	[вь]вьричь	вѣверица	NOUN	_	Case=Gen|Gender=Fem|Number=Plur	10	nmod	_	wf="вьвьричь"|comment=pl_tant|meaning="деньги"|addr="1002:2"|_
 5	не	не	PART	_	_	6	advmod	_	wf="не"|addr="1002:2"|_
 6	[п]лат[и]л[е]	платити	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=PartRes|Voice=Act	0	root	_	wf="платиле"|tense=perf|addr="1002:2"|_
 7	е:	·е҃·	NUM	_	NumForm=Digit|NumType=Card	10	nummod:gov	_	wf="е:"|addr="1002:3"|line_id=3|_
@@ -13157,7 +13157,7 @@
 # sent_transl_en = 
 # text = а семѹ вода<lbr/>ї осмь ногато
 1	а	а	CCONJ	_	_	3	cc	_	wf="а"|addr="1006:_Оборот:1"|line_id=1|_
-2	семѹ	сеи	DET	_	Case=Dat	3	iobj	_	wf="семѹ"|addr="1006:_Оборот:1"|_
+2	семѹ	сеи	DET	_	Case=Dat|Gender=Masc|Number=Sing|PronType=Dem	3	iobj	_	wf="семѹ"|addr="1006:_Оборот:1"|_
 3	вода<lbr/>ї	вдаꙗти	VERB	_	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	wf="водаї"|addr="1006:_Оборот:1"|_
 4	осмь	осмь	NUM	_	Case=Acc|NumType=Card	5	nummod:gov	_	wf="осмь"|addr="1006:_Оборот:2"|line_id=2|_
 5	ногато	ногата	NOUN	_	Case=Gen|Gender=Fem|Number=Plur	3	obj	_	wf="ногато"|addr="1006:_Оборот:2"|_
@@ -13890,18 +13890,18 @@
 4	ть	ти	PART	_	_	3	advmod	_	wf="ть"|addr="1066:1"|_
 5	и	и	CCONJ	_	_	7	cc	_	wf="и"|addr="1066:1"|_
 6	моимъ	мои	DET	_	Case=Dat|Number=Plur	7	det	_	wf="моимъ"|addr="1066:1"|_
-7	дѣтьмъ	дѣти	NOUN	_	Case=Dat|Number=Plur	3	conj	_	wf="дѣтьмъ"|comment=pl_tant|addr="1066:1"|_
+7	дѣтьмъ	дѣти	NOUN	_	Case=Dat|Gender=Neut|Number=Plur	3	conj	_	wf="дѣтьмъ"|comment=pl_tant|addr="1066:1"|_
 8	·	·	PUNCT	_	_	10	punct	_	wf="·"|_
 9	·	·	PUNCT	_	_	10	punct	_	wf="·"|_
 10	в҃	·в҃·	ADJ	_	Case=Acc|Gender=Fem|Number=Sing|NumForm=Digit	12	amod	_	wf="в҃"|addr="1066:1"|_
 11	·	·	PUNCT	_	_	12	punct	_	wf="·"|_
 12	со[х]у	соха	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	1	conj	_	wf="соху"|comment=lemma_unsure|ctxt_comment="_земельный_участок"|addr="1066:1"|_
 13	…	…	PUNCT	_	_	15	punct	_	wf="…"|_
-14	…<lbr/>та	грамота	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	15	obj	_	wf="…та"|comment="pos_unsure"|comment=number_unsure|comment=gender_unsure|comment=case_unsure|addr="1066:1"|_
+14	…<lbr/>та	грамота	NOUN	Case=Nom1	Case=Nom|Gender=Fem|Number=Sing	15	obj	_	wf="…та"|comment="pos_unsure"|comment=number_unsure|comment=gender_unsure|comment=case_unsure|addr="1066:1"|_
 15	псать	писати	VERB	_	VerbForm=Inf|Voice=Act	1	conj	_	wf="псать"|addr="1066:2"|line_id=2|_
 16	·	·	PUNCT	_	_	19	punct	_	wf="·"|_
 17	и	и	CCONJ	_	_	19	cc	_	wf="и"|addr="1066:2"|_
-18	правда	правда	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	19	obj	_	wf="правда"|addr="1066:2"|_
+18	правда	правда	NOUN	Case=Nom1	Case=Nom|Gender=Fem|Number=Sing	19	obj	_	wf="правда"|addr="1066:2"|_
 19	взѧть	взѧти	VERB	_	VerbForm=Inf|Voice=Act	15	conj	_	wf="взѧть"|addr="1066:2"|_
 
 # sent_id = 1066-2
@@ -13928,22 +13928,22 @@
 2	…	…	PUNCT	_	_	5	punct	_	wf="…"|_
 3	за	за	ADP	_	_	5	case	_	wf="за"|addr="1068:2"|line_id=2|_
 4	д	·д҃·	NUM	_	NumForm=Digit|NumType=Card	5	nummod:gov	_	wf="д"|addr="1068:2"|_
-5	гривꙑ	гривна	NOUN	_	Case=Acc|Gender=Fem|Number=Count	1	nsubj	_	wf="гривꙑ"|addr="1068:2"|_
+5	гривꙑ	гривна	NOUN	_	Case=Acc|Gender=Fem|Number=Count	1	orphan	_	wf="гривꙑ"|addr="1068:2"|_
 6	ӧс(мь	осмь	NUM	_	NumType=Card	8	nummod:gov	_	wf="ӧсмь"|addr="1068:2"|_
 7	десѧтъ	десѧть	NUM	_	Case=Gen|Number=Plur|NumType=Card	6	flat	_	wf="десѧтъ"|comment=reconstr|addr="1068:2"|_
-8	кадьць	кадьца	NOUN	_	Case=Gen|Gender=Fem|Number=Plur	5	conj	_	wf="кадьць"|meaning="как_мера_количества_зерна"|addr="1068:2"|_
+8	кадьць	кадьца	NOUN	_	Case=Gen|Gender=Fem|Number=Plur	1	conj	_	wf="кадьць"|meaning="как_мера_количества_зерна"|addr="1068:2"|_
 9	жита)	жито	NOUN	_	Case=Gen|Gender=Neut|Number=Sing	8	nmod	_	wf="жита"|addr="1068:2"|_
 10	за	за	ADP	_	_	11	case	_	wf="за"|addr="1068:2"|_
 11	трицѧть	тридьсѧть	NUM	_	Case=Acc|NumType=Card	8	nmod	_	wf="трицѧть"|addr="1068:2"|_
 12	пѧтьнацѧть	пѧть	NUM	_	Case=Nom|NumType=Card	13	nummod:gov	_	wf="пѧтьнацѧть"|addr="1068:2"|_
-13	кадь<lbr/>ць	кадьца	NOUN	_	Case=Gen|Gender=Fem|Number=Plur	5	conj	_	wf="кадьць"|meaning="как_мера_количества_зерна"|addr="1068:2"|_
+13	кадь<lbr/>ць	кадьца	NOUN	_	Case=Gen|Gender=Fem|Number=Plur	1	conj	_	wf="кадьць"|meaning="как_мера_количества_зерна"|addr="1068:2"|_
 14	ӧвса	овесъ	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	wf="ӧвса"|addr="1068:3"|line_id=3|_
 15	за	за	ADP	_	_	17	case	_	wf="за"|addr="1068:3"|_
 16	три	триѥ	NUM	_	Case=Acc|NumType=Card	17	nummod:gov	_	wf="три"|addr="1068:3"|_
 17	грвꙑ	гривна	NOUN	_	Case=Acc|Gender=Fem|Number=Count	13	nmod	_	wf="грвꙑ"|addr="1068:3"|_
 18	по[л](ъ	полъ	NUM	_	Case=Acc|Gender=Masc|Number=Sing	20	nummod:gov	_	wf="полъ"|meaning="половина"|addr="1068:3"|_
 19	трет)[и]ѥ	третии	ADJ	_	Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	wf="третиѥ"|addr="1068:3"|_
-20	гривънꙑ	гривна	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	5	conj	_	wf="гривънꙑ"|addr="1068:3"|_
+20	гривънꙑ	гривна	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	1	conj	_	wf="гривънꙑ"|addr="1068:3"|_
 
 # sent_id = 1068-2
 # sent_transl_ru = У Тимошки четыре кадцы ржи за две гривны, у [его] детей в деревеньке (или на речке) Берёза за полгривны — кожу, полотна десять локтей, холста отрез, за полгривны — пять овчин промятых.
@@ -13958,7 +13958,7 @@
 7	дви	два	NUM	_	Case=Acc|Gender=Fem|NumType=Card	8	nummod:gov	_	wf="дви"|addr="1068:4"|_
 8	гривнꙑ	гривна	NOUN	_	Case=Acc|Gender=Fem|Number=Count	4	nmod	_	wf="гривнꙑ"|addr="1068:4"|_
 9	ѹ	у	ADP	_	_	10	case	_	wf="ѹ"|addr="1068:4"|_
-10	дитьи	дѣти	NOUN	_	Case=Gen	2	conj	_	wf="дитьи"|comment=pl_tant|addr="1068:4"|_
+10	дитьи	дѣти	NOUN	_	Case=Gen|Gender=Neut|Number=Plur	2	conj	_	wf="дитьи"|comment=pl_tant|addr="1068:4"|_
 11	на	на	ADP	_	_	12	case	_	wf="на"|addr="1068:4"|_
 12	берези	Береза	NOUN	_	Case=Loc|Gender=Fem|Number=Sing	10	obl	_	wf="берези"|addr="1068:4"|_
 13	кожю	кожа	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	10	nsubj	_	wf="кожю"|addr="1068:4"|_
@@ -14006,7 +14006,7 @@
 5	…	…	PUNCT	_	_	6	punct	_	wf="…"|_
 6	бье	бити	VERB	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	wf="бье"|comment="tense_nonpast"|addr="1070:3"|line_id=3|_
 7	·	·	PUNCT	_	_	8	punct	_	wf="·"|_
-8	целомо	чело	NOUN	_	Case=Ins|Gender=Neut|Number=Sing	6	iobj	_	wf="целомо"|addr="1070:3"|_
+8	целомо	чело	NOUN	_	Case=Ins|Gender=Neut|Number=Sing	6	obj	_	wf="целомо"|addr="1070:3"|_
 9	·	·	PUNCT	_	_	10	punct	_	wf="·"|_
 10	ѳо[м]	Фома	PROPN	_	Case=Nom|Gender=Masc|NameType=Giv|Number=Sing	6	nsubj	_	wf="ѳом"|addr="1070:3"|_
 11	…	…	PUNCT	_	_	12	punct	_	wf="…"|_
@@ -14186,7 +14186,7 @@
 # sent_transl_en = 
 # text = а толока · гоши[ти] (…) (св)<lbr/>[ѧ]т[окъ]
 1	а	а	CCONJ	_	_	4	cc	_	wf="а"|addr="1086:2"|_
-2	толока	толока	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	4	obj	_	wf="толока"|meaning="однодневная_коллективная_работа"|addr="1086:2"|_
+2	толока	толока	NOUN	Case=Nom1	Case=Nom|Gender=Fem|Number=Sing	4	obj	_	wf="толока"|meaning="однодневная_коллективная_работа"|addr="1086:2"|_
 3	·	·	PUNCT	_	_	4	punct	_	wf="·"|_
 4	гоши[ти]	гошити	VERB	_	VerbForm=Inf|Voice=Act	0	root	_	wf="гошити"|addr="1086:2"|_
 5	(…)	(…)	PUNCT	_	_	6	punct	_	wf="(…)"|_
@@ -14366,7 +14366,7 @@
 6	то	ты	PRON	_!	Case=Acc|Gender=Neut|Number=Sing|Person=3	0	root	_	wf="то"|addr="1095:2"|_
 7	у	у	ADP	_	_	6	orphan	_	wf="у"|addr="1095:2"|_
 8	…	…	PUNCT	_	_	9	punct	_	wf="…"|line_id=3|_
-9	(дѣ)теи	дѣти	NOUN	_	Case=Gen|Number=Plur	6	orphan	_	wf="дѣтеи"|comment=pl_tant|addr="1095:3"|_
+9	(дѣ)теи	дѣти	NOUN	_	Case=Gen|Gender=Neut|Number=Plur	6	orphan	_	wf="дѣтеи"|comment=pl_tant|addr="1095:3"|_
 10	и	изъ	ADP	_	_	12	case	_	wf="и"|addr="1095:3"|_
 11	своихъ	свои	DET	_	Case=Gen|Number=Plur	12	det	_	wf="своихъ"|addr="1095:3"|_
 12	хоромо	хоромъ	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	6	orphan	_	wf="хоромо"|addr="1095:3"|_
@@ -14612,7 +14612,7 @@
 # sent_transl_en = 
 # text = а самомуо творѧхуо [в]о ньдьл[уо]
 1	а	а	CCONJ	_	_	3	cc	_	wf="а"|addr="1108:_Лицевая_сторона:1"|_
-2	самомуо	самъ	DET	_	Case=Dat|Gender=Masc|Number=Sing	3	iobj	_	wf="самомуо"|addr="1108:_Лицевая_сторона:1"|_
+2	самомуо	самъ	DET	_	Case=Dat|Gender=Masc|Number=Sing|PronType=Emp	3	iobj	_	wf="самомуо"|addr="1108:_Лицевая_сторона:1"|_
 3	творѧхуо	творитисѧ	VERB	_	Number=Plur|Person=3|Tense=Imp|VerbForm=Fin|Voice=Act	0	root	_	wf="творѧхуо"|comment=as_PARENTH|meaning="утверждать_(про_себя_что)"|addr="1108:_Лицевая_сторона:1"|_
 4	[в]о	въ	ADP	_	_	5	case	_	wf="во"|addr="1108:_Лицевая_сторона:1"|_
 5	ньдьл[уо]	недѣлѧ	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	3	obl	_	wf="ньдьлуо"|addr="1108:_Лицевая_сторона:1"|_
@@ -15124,7 +15124,7 @@
 # text = … ви (дит)[и] · кѹнꙑ · носѧ(ть) …
 1	…	…	PUNCT	_	_	7	punct	_	wf="…"|_
 2	ви	…въ	ADJ	_	Case=Nom|Gender=Masc|Number=Plur|Poss=Yes	3	amod	_	wf="ви"|addr="1129:3"|line_id=3|_
-3	(дит)[и]	дѣти	NOUN	_	Case=Nom|Number=Sing	7	nsubj	_	wf="дити"|comment=pl_tant|comment=reconstr|addr="1129:3"|_
+3	(дит)[и]	дѣти	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	wf="дити"|comment=pl_tant|comment=reconstr|addr="1129:3"|_
 4	·	·	PUNCT	_	_	5	punct	_	wf="·"|_
 5	кѹнꙑ	куна	NOUN	_	Case=Acc|Gender=Fem|Number=Plur	7	obj	_	wf="кѹнꙑ"|meaning="деньги"|addr="1129:3"|_
 6	·	·	PUNCT	_	_	7	punct	_	wf="·"|_
@@ -15170,7 +15170,7 @@
 14	ѹ	у	ADP	_	_	17	case	_	wf="ѹ"|addr="1129:5"|_
 15	--[р]---вꙑхъ	…въ	ADJ	_	Case=Gen|Gender=Masc|Number=Plur|Poss=Yes	17	amod	_	wf="--р---вꙑхъ"|addr="1129:5"|_
 16	·	·	PUNCT	_	_	17	punct	_	wf="·"|_
-17	дитьи	дѣти	NOUN	_	Case=Gen	13	obl	_	wf="дитьи"|comment=pl_tant|addr="1129:5"|_
+17	дитьи	дѣти	NOUN	_	Case=Gen|Gender=Neut|Number=Plur	13	obl	_	wf="дитьи"|comment=pl_tant|addr="1129:5"|_
 18	…	…	PUNCT	_	_	19	punct	_	wf="…"|line_id=6|_
 19	…ни	…ни	X	_	_	13	dep	_	wf="…ни"|addr="1129:6"|_
 20	·	·	PUNCT	_	_	1	punct	_	wf="·"|_
@@ -15248,8 +15248,8 @@
 1	азъ	ꙗзъ	PRON	_	Case=Nom|Number=Sing|Person=1	6	nsubj	_	wf="азъ"|addr="1132:4"|_
 2	тобѣ	ты	PRON	_	Case=Dat|Number=Sing|Person=2	6	iobj	_	wf="тобѣ"|addr="1132:4"|_
 3	своему	свои	DET	_	Case=Dat|Gender=Masc|Number=Sing	4	det	_	wf="своему"|addr="1132:4"|_
-4	годину	господинъ	NOUN	_	Case=Dat|Gender=Masc|Number=Sing	6	iobj	_	wf="годину"|addr="1132:4"|_
-5	цело[м](ъ	чело	NOUN	_	Case=Ins|Gender=Neut|Number=Sing	6	iobj	_	wf="целомъ"|addr="1132:4"|_
+4	годину	господинъ	NOUN	_	Case=Dat|Gender=Masc|Number=Sing	2	appos	_	wf="годину"|addr="1132:4"|_
+5	цело[м](ъ	чело	NOUN	_	Case=Ins|Gender=Neut|Number=Sing	6	obj	_	wf="целомъ"|addr="1132:4"|_
 6	бью)	бити	VERB	_	Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	wf="бью"|comment=reconstr|addr="1132:4"|_
 
 # newdoc id = texts/birchbark/Mosk_3
@@ -15424,7 +15424,7 @@
 3	турабьѥвѣ	Турабьѥвъ	ADJ	_	Case=Dat|Gender=Fem|Number=Sing|Poss=Yes	4	amod	_	wf="турабьѥвѣ"|addr="Мос._3:14"|_
 4	челед	челѧдь	NOUN	_	Case=Dat|Gender=Fem|Number=Sing	1	iobj	_	wf="челед"|addr="Мос._3:14"|_
 5	с	съ	ADP	_	_	6	case	_	wf="с"|addr="Мос._3:14"|_
-6	людми	людьѥ	NOUN	_	Case=Ins|Number=Sing	7	obl	_	wf="людми"|comment=pl_tant|addr="Мос._3:14"|_
+6	людми	людьѥ	NOUN	_	Case=Ins|Gender=Masc|Number=Sing	7	obl	_	wf="людми"|comment=pl_tant|addr="Мос._3:14"|_
 7	ѣсти	ѣсти	VERB	_	VerbForm=Inf|Voice=Act	1	xcomp	_	wf="ѣсти"|addr="Мос._3:14"|_
 
 # sent_id = Mosk_3-11
@@ -15432,7 +15432,7 @@
 # sent_transl_en =
 # text = а люди турабьѥвꙑх молодꙑх ѻникѣико молчан игнатко мос(ѣи) баирамъ ахмед ѻнташь жалорь ѥска
 1	а	а	CCONJ	_	_	5	cc	_	wf="а"|addr="Мос._3:14"|_
-2	люди	людьѥ	NOUN	_	Case=Gen|Number=Plur	5	nsubj	_	wf="люди"|comment=pl_tant|addr="Мос._3:14"|_
+2	люди	людьѥ	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	5	nsubj	_	wf="люди"|comment=pl_tant|addr="Мос._3:14"|_
 3	турабьѥвꙑх	Турабьѥвъ	ADJ	_	Case=Gen|Gender=Masc|Number=Plur|Poss=Yes	2	amod	_	wf="турабьѥвꙑх"|addr="Мос._3:15"|line_id=15|_
 4	молодꙑх	молодыи	ADJ	_	Case=Gen|Number=Plur	2	amod	_	wf="молодꙑх"|addr="Мос._3:15"|_
 5	ѻникѣико	Оникѣико	PROPN	_	Case=Nom|Gender=Masc|NameType=Giv|Number=Sing	0	root	_	wf="ѻникѣико"|addr="Мос._3:15"|_
@@ -15475,7 +15475,7 @@
 2	ѹ	у	ADP	_	_	5	case	_	wf="ѹ"|addr="Мос._3:19"|_
 3	тѣх	тотъ	DET	_	Case=Gen|Number=Plur	5	det	_	wf="тѣх"|addr="Мос._3:19"|_
 4	ѥго	и	PRON	_	Case=Acc,Gen|Gender=Masc|Number=Sing	5	det	_	wf="ѥго"|addr="Мос._3:19"|_
-5	людеи	людьѥ	NOUN	_	Case=Gen|Number=Plur	0	root	_	wf="людеи"|comment=pl_tant|addr="Мос._3:19"|_
+5	людеи	людьѥ	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	0	root	_	wf="людеи"|comment=pl_tant|addr="Мос._3:19"|_
 6	четве<lbr/>ронатцатеро	четверонадьсѧтеро	NUM	_	Case=Nom|NumType=Card	7	nummod:gov	_	wf="четверонатцатеро"|addr="Мос._3:19"|_
 7	конь	конь	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	5	nsubj	_	wf="конь"|addr="Мос._3:20"|line_id=20|_
 8	а	а	CCONJ	_	_	10	cc	_	wf="а"|addr="Мос._3:20"|_
@@ -15494,7 +15494,7 @@
 2	в	въ	ADP	_	_	3	case	_	wf="в"|addr="Мос._3:21"|_
 3	дѣлѣ	дѣло	NOUN	_	Case=Loc|Gender=Neut|Number=Sing	5	obl	_	wf="дѣлѣ"|addr="Мос._3:21"|_
 4	на	на	ADP	_	_	5	case	_	wf="на"|addr="Мос._3:21"|_
-5	людех	людьѥ	NOUN	_	Case=Loc|Number=Plur	0	root	_	wf="людех"|comment=pl_tant|addr="Мос._3:21"|_
+5	людех	людьѥ	NOUN	_	Case=Loc|Gender=Masc|Number=Plur	0	root	_	wf="людех"|comment=pl_tant|addr="Мос._3:21"|_
 6	серебра	серебро	NOUN	_	Case=Gen|Gender=Neut|Number=Sing	5	nsubj	_	wf="серебра"|addr="Мос._3:21"|_
 7	ѹ	у	ADP	_	_	8	case	_	wf="ѹ"|addr="Мос._3:21"|_
 8	григорь<lbr/>ѥца	Григорьѥць	PROPN	_	Case=Gen|Gender=Masc|NameType=Giv|Number=Sing	5	parataxis	_	wf="григорьѥца"|addr="Мос._3:21"|_
@@ -15529,7 +15529,7 @@
 2	всего	весь	DET	_	Case=Gen|Gender=Neut|Number=Sing	5	obl	_	wf="всего"|addr="Мос._3:25"|_
 3	серебра	серебро	NOUN	_	Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	wf="серебра"|addr="Мос._3:25"|_
 4	на	на	ADP	_	_	5	case	_	wf="на"|addr="Мос._3:25"|_
-5	людехъ	людьѥ	NOUN	_	Case=Loc|Number=Plur	0	root	_	wf="людехъ"|comment=pl_tant|addr="Мос._3:25"|_
+5	людехъ	людьѥ	NOUN	_	Case=Loc|Gender=Masc|Number=Plur	0	root	_	wf="людехъ"|comment=pl_tant|addr="Мос._3:25"|_
 6	турабьѥва	Турабьѥвъ	ADJ	_	Case=Gen|Gender=Neut|Number=Sing|Poss=Yes	5	nmod	_	wf="турабьѥва"|addr="Мос._3:25"|_
 7	в	въ	ADP	_	_	8	case	_	wf="в"|addr="Мос._3:25"|_
 8	дѣлѣ	дѣло	NOUN	_	Case=Loc|Gender=Neut|Number=Sing	5	obl	_	wf="дѣлѣ"|addr="Мос._3:25"|_
@@ -15737,7 +15737,7 @@
 9	(т)о	тотъ	DET	_	Case=Acc|Gender=Neut|Number=Sing	10	obj	_	wf="то"|addr="Мос._3:48"|_
 10	имали	имати	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	0	root	_	wf="имали"|tense=perf|addr="Мос._3:49"|line_id=49|_
 11	ѻспода	оспода	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	wf="ѻспода"|addr="Мос._3:49"|_
-12	·р҃·	·р҃·	NUM	_	NumForm=Digit|NumType=Card	10	obl	_	wf="·р҃·"|addr="Мос._3:49"|_
+12	·р҃·	·р҃·	NUM	_	NumForm=Digit|NumType=Card	9	nmod	_	wf="·р҃·"|addr="Мос._3:49"|_
 13	·	·	PUNCT	_	_	10	punct	_	wf="·"|_
 
 # sent_id = Mosk_3-27
@@ -15828,7 +15828,7 @@
 4	сѹх[м]ина	Сухминъ	ADJ	_	Case=Gen|Number=Sing|Poss=Yes	2	flat:name	_	wf="сѹхмина"|comment=lemma_ph_unsure|addr="Пск._4:3"|_
 5	сн҃а	сынъ	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	2	flat:name	_	wf="сн҃а"|addr="Пск._4:3"|_
 6	·	·	PUNCT	_	_	7	punct	_	wf="·"|_
-7	измази<lbr/>[ци]	измазица	NOUN	_	Case=Nom|Number=Plur	2	nsubj	_	wf="измазици"|comment=lemma_unsure|meaning="смазные_сапоги_(?)"|addr="Пск._4:3"|after:line_id=4|_
+7	измази<lbr/>[ци]	измазица	NOUN	_	Case=Nom|Gender=Fem|Number=Plur	2	nsubj	_	wf="измазици"|comment=lemma_unsure|meaning="смазные_сапоги_(?)"|addr="Пск._4:3"|after:line_id=4|_
 
 # newdoc id = texts/birchbark/Psk_7
 # date_created = 1280-1300
@@ -16549,7 +16549,7 @@
 8	сестри	сестра	NOUN	_	Case=Dat|Gender=Fem|Number=Sing	3	conj	_	wf="сестри"|addr="Ст._Р._40:5"|_
 9	моѥӏ	мои	DET	_	Case=Dat|Gender=Fem|Number=Sing	8	det	_	wf="моѥӏ"|addr="Ст._Р._40:6"|line_id=6|_
 10	много	много	ADV	_	_	12	advmod	_	wf="много"|addr="Ст._Р._40:6"|_
-11	целомъ	чело	NOUN	_	Case=Ins|Gender=Neut|Number=Sing	12	iobj	_	wf="целомъ"|addr="Ст._Р._40:6"|_
+11	целомъ	чело	NOUN	_	Case=Ins|Gender=Neut|Number=Sing	12	obj	_	wf="целомъ"|addr="Ст._Р._40:6"|_
 12	бию	бити	VERB	_	Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	wf="бию"|comment="tense_nonpast"|addr="Ст._Р._40:6"|_
 
 # newdoc id = texts/birchbark/St_R_41
