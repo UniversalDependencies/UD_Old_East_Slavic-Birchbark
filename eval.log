@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 26e6c87a2f518322d15901a351199b6be6569062
+commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri Nov 7 15:39:58 2025 +0100
+Date:   Tue May 5 17:01:41 2026 +0200
 Evaluating the following revision of UD_Old_East_Slavic-Birchbark:
-commit ad75c0c4873a74561f05a2389860f9e7c3bb9000
-Merge: 1f94d63 6ba1a65
+commit 3e37633cbf495f2bf42a4b483380fa06b489de2e
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Tue Nov 11 20:21:25 2025 +0100
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'orv_birchbark'
 Language code (from CoNLL-U file name) = 'orv'
@@ -25,48 +25,82 @@ Universal relations: 35 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
 Genres: found 1 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang orv --max-err=10 UD_Old_East_Slavic-Birchbark/orv_birchbark-ud-dev.conllu
-[Line 39 Sent 015-2]: [L3 Warning pron-det-without-prontype] The word '[м]ѧ' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 41 Sent 015-2]: [L3 Warning verbform-fin-without-mood] Finite verb 'ѥси' lacks the 'Mood' feature
-[Line 56 Sent 016-1]: [L3 Warning pron-det-without-prontype] The word 'тꙑ' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 74 Sent 018-1]: [L3 Warning pron-det-without-prontype] The word 'ѥго' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 91 Sent 018-3]: [L3 Warning verbform-fin-without-mood] Finite verb '(…)иде' lacks the 'Mood' feature
-[Line 103 Sent 018-4]: [L3 Warning verbform-fin-without-mood] Finite verb 'буде' lacks the 'Mood' feature
-[Line 105 Sent 018-4]: [L3 Warning pron-det-without-prontype] The word 'ва<lbr/>(съ)' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 108 Sent 018-4]: [L3 Warning verbform-fin-without-mood] Finite verb 'жалуѥте' lacks the 'Mood' feature
-[Line 114 Sent 018-4]: [L3 Warning pron-det-without-prontype] The word 'вамъ' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 143 Sent 022-2]: [L3 Warning pron-det-without-prontype] The word 'мо(и)' is tagged 'DET' but it lacks the 'PronType' feature
-...suppressing further errors regarding Warning
+[Line 39 Sent 015-2]: [L3 WARNING pron-det-without-prontype] The word '[м]ѧ' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 41 Sent 015-2]: [L3 WARNING verbform-fin-without-mood] Finite verb 'ѥси' lacks the 'Mood' feature
+[Line 56 Sent 016-1]: [L3 WARNING pron-det-without-prontype] The word 'тꙑ' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 74 Sent 018-1]: [L3 WARNING pron-det-without-prontype] The word 'ѥго' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 91 Sent 018-3]: [L3 WARNING verbform-fin-without-mood] Finite verb '(…)иде' lacks the 'Mood' feature
+[Line 103 Sent 018-4]: [L3 WARNING verbform-fin-without-mood] Finite verb 'буде' lacks the 'Mood' feature
+[Line 105 Sent 018-4]: [L3 WARNING pron-det-without-prontype] The word 'ва<lbr/>(съ)' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 108 Sent 018-4]: [L3 WARNING verbform-fin-without-mood] Finite verb 'жалуѥте' lacks the 'Mood' feature
+[Line 114 Sent 018-4]: [L3 WARNING pron-det-without-prontype] The word 'вамъ' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 143 Sent 022-2]: [L3 WARNING pron-det-without-prontype] The word 'мо(и)' is tagged 'DET' but it lacks the 'PronType' feature
+...suppressing further messages regarding WARNING/MORPHO
+[Line 1239 Sent 102-3]: [L3 WARNING fixed-without-extpos] Fixed expression 'сто бꙑ' does not have the 'ExtPos' feature
+[Line 1477 Sent 129-2]: [L3 WARNING fixed-without-extpos] Fixed expression 'цо бъ' does not have the 'ExtPos' feature
+[Line 1504 Sent 129-3]: [L3 WARNING fixed-without-extpos] Fixed expression 'цо бъ' does not have the 'ExtPos' feature
+[Line 2566 Sent 227-4]: [L3 WARNING fixed-without-extpos] Fixed expression 'а и' does not have the 'ExtPos' feature
+[Line 4677 Sent 301-3]: [L3 WARNING fixed-without-extpos] Fixed expression 'цо би' does not have the 'ExtPos' feature
+[Line 4730 Sent 302-2]: [L3 WARNING fixed-without-extpos] Fixed expression 'чо бꙑ' does not have the 'ExtPos' feature
+[Line 4851 Sent 313-2]: [L3 WARNING fixed-without-extpos] Fixed expression 'нѣ чимъ' does not have the 'ExtPos' feature
+[Line 5572 Sent 354-3]: [L3 WARNING fixed-without-extpos] Fixed expression 'что бꙑ' does not have the 'ExtPos' feature
+[Line 5677 Sent 354-9]: [L3 WARNING fixed-without-extpos] Fixed expression 'что бꙑ' does not have the 'ExtPos' feature
+[Line 6233 Sent 413-2]: [L3 WARNING fixed-without-extpos] Fixed expression 'цо бꙑ' does not have the 'ExtPos' feature
+...suppressing further messages regarding WARNING/SYNTAX
 Warnings: 1095
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang orv --max-err=10 UD_Old_East_Slavic-Birchbark/orv_birchbark-ud-test.conllu
-[Line 193 Sent 005-2]: [L3 Warning pron-det-without-prontype] The word 'нашего' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 209 Sent 005-2]: [L3 Warning verbform-fin-without-mood] Finite verb 'дасть' lacks the 'Mood' feature
-[Line 212 Sent 005-2]: [L3 Warning pron-det-without-prontype] The word 'него' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 234 Sent 008-2]: [L3 Warning pron-det-without-prontype] The word 'чьѧ' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 236 Sent 008-2]: [L3 Warning verbform-fin-without-mood] Finite verb 'е<lbr/>сть' lacks the 'Mood' feature
-[Line 240 Sent 008-2]: [L3 Warning pron-det-without-prontype] The word 'емꙋ' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 242 Sent 008-2]: [L3 Warning verbform-fin-without-mood] Finite verb 'хочьши' lacks the 'Mood' feature
-[Line 245 Sent 008-2]: [L3 Warning verbform-fin-without-mood] Finite verb 'едеши' lacks the 'Mood' feature
-[Line 274 Sent 009-2]: [L3 Warning pron-det-without-prontype] The word 'ми' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 281 Sent 009-2]: [L3 Warning pron-det-without-prontype] The word 'то' is tagged 'DET' but it lacks the 'PronType' feature
-...suppressing further errors regarding Warning
-Warnings: 1172
-*** PASSED ***
+[Line 193 Sent 005-2]: [L3 WARNING pron-det-without-prontype] The word 'нашего' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 209 Sent 005-2]: [L3 WARNING verbform-fin-without-mood] Finite verb 'дасть' lacks the 'Mood' feature
+[Line 212 Sent 005-2]: [L3 WARNING pron-det-without-prontype] The word 'него' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 234 Sent 008-2]: [L3 WARNING pron-det-without-prontype] The word 'чьѧ' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 236 Sent 008-2]: [L3 WARNING verbform-fin-without-mood] Finite verb 'е<lbr/>сть' lacks the 'Mood' feature
+[Line 240 Sent 008-2]: [L3 WARNING pron-det-without-prontype] The word 'емꙋ' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 242 Sent 008-2]: [L3 WARNING verbform-fin-without-mood] Finite verb 'хочьши' lacks the 'Mood' feature
+[Line 245 Sent 008-2]: [L3 WARNING verbform-fin-without-mood] Finite verb 'едеши' lacks the 'Mood' feature
+[Line 274 Sent 009-2]: [L3 WARNING pron-det-without-prontype] The word 'ми' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 281 Sent 009-2]: [L3 WARNING pron-det-without-prontype] The word 'то' is tagged 'DET' but it lacks the 'PronType' feature
+...suppressing further messages regarding WARNING/MORPHO
+[Line 416 Sent 019-1]: [L3 WARNING fixed-without-extpos] Fixed expression 'цо бъ' does not have the 'ExtPos' feature
+[Line 642 Sent 043-2]: [L3 SYNTAX obl-should-be-nmod] The parent (node [14] 'цоловѣкъ') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 2134 Sent 167-2]: [L3 WARNING fixed-without-extpos] Fixed expression 'чо би' does not have the 'ExtPos' feature
+[Line 2383 Sent 204-1]: [L3 WARNING fixed-without-extpos] Fixed expression 'ѧко же' does not have the 'ExtPos' feature
+[Line 2510 Sent 207-1]: [L3 WARNING fixed-without-extpos] Fixed expression 'ѧко<lbr/>ко же' does not have the 'ExtPos' feature
+[Line 3587 Sent 311-3]: [L3 WARNING fixed-without-extpos] Fixed expression 'де і' does not have the 'ExtPos' feature
+[Line 4157 Sent 361-3]: [L3 WARNING fixed-without-extpos] Fixed expression 'не чего' does not have the 'ExtPos' feature
+[Line 4161 Sent 361-3]: [L3 WARNING fixed-without-extpos] Fixed expression 'тако же' does not have the 'ExtPos' feature
+[Line 4163 Sent 361-3]: [L3 WARNING fixed-without-extpos] Fixed expression 'не чего' does not have the 'ExtPos' feature
+[Line 5337 Sent 420-3]: [L3 WARNING fixed-without-extpos] Fixed expression 'то же' does not have the 'ExtPos' feature
+[Line 5381 Sent 421-3]: [L3 WARNING fixed-without-extpos] Fixed expression 'паки ли' does not have the 'ExtPos' feature
+...suppressing further messages regarding WARNING/SYNTAX
+Warnings: 1169
+SYNTAX errors: 1
+*** FAILED *** with 1 errors
+Exit code: 1
 /net/work/people/zeman/unidep/tools/validate.py --lang orv --max-err=10 UD_Old_East_Slavic-Birchbark/orv_birchbark-ud-train.conllu
-[Line 318 Sent 003-3]: [L3 Warning pron-det-without-prontype] The word 'ꙗзъ' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 319 Sent 003-3]: [L3 Warning pron-det-without-prontype] The word 'ѥму' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 323 Sent 003-3]: [L3 Warning pron-det-without-prontype] The word 'ми' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 327 Sent 003-3]: [L3 Warning pron-det-without-prontype] The word 'ни' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 329 Sent 003-3]: [L3 Warning pron-det-without-prontype] The word 'кого' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 336 Sent 003-4]: [L3 Warning pron-det-without-prontype] The word 'ѡнъ' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 341 Sent 003-4]: [L3 Warning pron-det-without-prontype] The word 'тꙑ' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 348 Sent 003-5]: [L3 Warning verbform-fin-without-mood] Finite verb 'сѣ[д]ишь' lacks the 'Mood' feature
-[Line 352 Sent 003-5]: [L3 Warning verbform-fin-without-mood] Finite verb 'в[аришь]' lacks the 'Mood' feature
-[Line 378 Sent 004-2]: [L3 Warning verbform-fin-without-mood] Finite verb 'ѥсм·ь' lacks the 'Mood' feature
-...suppressing further errors regarding Warning
-Warnings: 632
-*** PASSED ***
-Validity: 1
+[Line 318 Sent 003-3]: [L3 WARNING pron-det-without-prontype] The word 'ꙗзъ' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 319 Sent 003-3]: [L3 WARNING pron-det-without-prontype] The word 'ѥму' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 323 Sent 003-3]: [L3 WARNING pron-det-without-prontype] The word 'ми' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 327 Sent 003-3]: [L3 WARNING pron-det-without-prontype] The word 'ни' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 329 Sent 003-3]: [L3 WARNING pron-det-without-prontype] The word 'кого' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 336 Sent 003-4]: [L3 WARNING pron-det-without-prontype] The word 'ѡнъ' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 341 Sent 003-4]: [L3 WARNING pron-det-without-prontype] The word 'тꙑ' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 348 Sent 003-5]: [L3 WARNING verbform-fin-without-mood] Finite verb 'сѣ[д]ишь' lacks the 'Mood' feature
+[Line 352 Sent 003-5]: [L3 WARNING verbform-fin-without-mood] Finite verb 'в[аришь]' lacks the 'Mood' feature
+[Line 378 Sent 004-2]: [L3 WARNING verbform-fin-without-mood] Finite verb 'ѥсм·ь' lacks the 'Mood' feature
+...suppressing further messages regarding WARNING/MORPHO
+[Line 1745 Sent 095-1]: [L3 WARNING fixed-without-extpos] Fixed expression 'цто бо' does not have the 'ExtPos' feature
+[Line 6700 Sent 418-3]: [L3 SYNTAX obl-should-be-nmod] The parent (node [2] 'цто') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 9438 Sent 612-2]: [L3 WARNING fixed-without-extpos] Fixed expression 'то т[и]' does not have the 'ExtPos' feature
+[Line 10534 Sent 693-2]: [L3 WARNING fixed-without-extpos] Fixed expression '[ч]то бꙑ' does not have the 'ExtPos' feature
+[Line 12256 Sent 835-2]: [L3 WARNING fixed-without-extpos] Fixed expression 'то ти' does not have the 'ExtPos' feature
+[Line 16324 Sent Torzh_17-2]: [L3 WARNING fixed-without-extpos] Fixed expression 'та же' does not have the 'ExtPos' feature
+[Line 17083 Sent 1162-2]: [L3 SYNTAX obl-should-be-nmod] The parent (node [6] 'поли') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+Warnings: 630
+SYNTAX errors: 2
+*** FAILED *** with 2 errors
+Exit code: 1
+Validity: 0.01
 (weight=0.111111111111111) * (score{features}=0.8) = 0.0888888888888889
 (weight=0.111111111111111) * (score{genres}=0.0555555555555556) = 0.00617283950617284
 (weight=0.111111111111111) * (score{lemmas}=0.8) = 0.0888888888888889
@@ -74,6 +108,6 @@ Validity: 1
 (weight=0.0740740740740741) * (score{split}=0.67) = 0.0496296296296296
 (weight=0.111111111111111) * (score{tags}=0.8) = 0.0888888888888889
 (weight=0.111111111111111) * (score{udeprels}=0.945945945945946) = 0.105105105105105
-(TOTAL score=0.606057346139667) * (availability=1) * (validity=1) = 0.606057346139667
-STARS = 3
-UD_Old_East_Slavic-Birchbark	0.606057346139667	3
+(TOTAL score=0.606057346139667) * (availability=1) * (validity=0.01) = 0.00606057346139667
+STARS = 0
+UD_Old_East_Slavic-Birchbark	0.00606057346139667	0
