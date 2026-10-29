@@ -639,7 +639,7 @@
 14	цоловѣкъ	человѣкъ	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	11	obj	_	wf="цоловѣкъ"|addr="043:3"|_
 15	·	·	PUNCT	_	_	17	punct	_	wf="·"|_
 16	на	на	ADP	_	_	17	case	_	wf="на"|addr="043:3"|_
-17	жерепцѣ	жеребець	NOUN	_	Case=Loc|Gender=Masc|Number=Sing	14	obl	_	wf="жерепцѣ"|addr="043:3"|_
+17	жерепцѣ	жеребець	NOUN	_	Case=Loc|Gender=Masc|Number=Sing	14	nmod	_	wf="жерепцѣ"|addr="043:3"|_
 18	зане	зане	SCONJ	_	_	25	mark	_	wf="зане"|addr="043:4"|line_id=4|_
 19	ми	ꙗзъ	PRON	_	Case=Dat|Clitic=Yes|Number=Sing|Person=1	25	iobj	_	wf="ми"|addr="043:4"|_
 20	·	·	PUNCT	_	_	21	punct	_	wf="·"|_
@@ -3352,7 +3352,7 @@
 16	·	·	PUNCT	_	_	13	punct	_	wf="·"|_
 
 # sent_id = 307-2
-# sent_transl_ru = Здесь, господа, в вашей волости Горотной (?) предъявляются повестки, здесь предъявляются фальшивые повестки, здесь, господа, предъявляются фальшивые завещания.
+# sent_transl_ru = Здесь, господа, в вашей волости Городней предъявляются повестки, здесь предъявляются фальшивые повестки, здесь, господа, предъявляются фальшивые завещания.
 # sent_transl_en = 
 # text = здѣсе ꙩсподо ѹ вашеи вълости ѧвлѧютсѧ позовницѣ ѹ горот[ъ]неи здѣ ѧвлѧтсѧ {п}позовници ложивꙑ<lbr/>и здѣсе ꙩсподо ѧ(влѧютсѧ ру)куписание лживꙑѧ ·
 1	здѣсе	сдѣсе	ADV	_	_	6	advmod	_	wf="здѣсе"|addr="307:3"|_
@@ -3363,7 +3363,7 @@
 6	ѧвлѧютсѧ	ꙗвлѧтисѧ	VERB	_	Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	wf="ѧвлѧютсѧ"|comment="tense_nonpast"|addr="307:3"|_
 7	позовницѣ	позовница	NOUN	_	Case=Nom|Gender=Fem|Number=Plur	6	nsubj	_	wf="позовницѣ"|meaning="судебная_повестка"|addr="307:4"|line_id=4|_
 8	ѹ	въ	ADP	_	_	9	case	_	wf="ѹ"|addr="307:4"|_
-9	горот[ъ]неи	Горотнѧꙗ	PROPN	_	Case=Loc|Gender=Fem|NameType=Geo|Number=Sing	5	appos	_	wf="горотънеи"|comment=lemma_ph_unsure|addr="307:4"|_
+9	горот[ъ]неи	Городнѧꙗ	PROPN	_	Case=Loc|Gender=Fem|NameType=Geo|Number=Sing	5	appos	_	wf="горотънеи"|comment=lemma_ph_unsure|addr="307:4"|_
 10	здѣ	сдѣ	ADV	_	_	11	advmod	_	wf="здѣ"|addr="307:4"|_
 11	ѧвлѧтсѧ	ꙗвлѧтисѧ	VERB	_	Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	6	conj	_	wf="ѧвлѧтсѧ"|comment="tense_nonpast"|addr="307:4"|_
 12	{п}позовници	позовница	NOUN	_	Case=Nom|Gender=Fem|Number=Plur	11	nsubj	_	wf="ппозовници"|meaning="судебная_повестка"|addr="307:4"|_
@@ -3376,7 +3376,7 @@
 19	·	·	PUNCT	_	_	6	punct	_	wf="·"|_
 
 # sent_id = 307-3
-# sent_transl_ru = А переписывают фальшивые повестки и завещания ваш Нетребуй [и (?)] дьяк.
+# sent_transl_ru = А переписывают повестки и завещания ваш Нетребуй-дьяк [и ваш Парфей].
 # sent_transl_en = 
 # text = а · перепѣ{сꙑ}сꙑ<lbr/>сꙑвають вашь нетребуи дѣѧкъ позовници и рукопѣсаниа лживꙑѧ ·
 1	а	а	CCONJ	_	_	3	cc	_	wf="а"|addr="307:5"|_
@@ -3392,15 +3392,15 @@
 11	·	·	PUNCT	_	_	3	punct	_	wf="·"|_
 
 # sent_id = 307-4
-# sent_transl_ru = А утверждают, что запечатал Иван (?) Парфеев (?) [эти] завещания.
+# sent_transl_ru = А притворяются, мол, «мы [только] запечатывали завещания [но не переписывали]» [вставка: ваш Парфей].
 # sent_transl_en = 
-# text = а · творѧтьсѧ печатале ива парфѣ рукусани{уе}ѧ
+# text = а · творѧтьсѧ печаталесм{и}ꙑ ва парфѣ рукусани{уе}ѧ
 1	а	а	CCONJ	_	_	3	cc	_	wf="а"|addr="307:7"|_
 2	·	·	PUNCT	_	_	3	punct	_	wf="·"|_
 3	творѧтьсѧ	творитисѧ	VERB	_	Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	wf="творѧтьсѧ"|comment="tense_nonpast"|meaning="утверждать_(про_себя_что)"|addr="307:7"|_
-4	печатале	печатати	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=PartRes|Voice=Act	3	parataxis	_	wf="печатале"|tense=perf|meaning="запечатывать,_ставить_печать"|addr="307:7"|_
-5	ива	Иванъ	PROPN	_	Case=Nom|Gender=Masc|NameType=Giv|Number=Sing	4	nsubj	_	wf="ива"|comment=incorrect|comment=lemma_unsure|comment="нет_в_указателе"|addr="307:7"|_
-6	парфѣ	Парфѣѥвъ	ADJ	_	Case=Nom|Gender=Masc|Number=Sing|Poss=Yes	5	flat:name	_	wf="парфѣ"|comment=incorrect|comment=lemma_unsure|addr="307:7"|_
+4	печаталесм{и}ꙑ	печатати+быти	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=PartRes|Voice=Act	3	parataxis	_	wf="печаталесмꙑ"|tense=perf|meaning="запечатывать,_ставить_печать"|addr="307:7"|_
+5	ва	вашь	DET	_	Case=Nom|Gender=Masc|Number=Sing|Poss=Yes	6	det	_	wf="ива"|comment=incorrect|comment=lemma_unsure|comment="нет_в_указателе"|addr="307:7"|_
+6	парфѣ	Парфѣи	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	4	parataxis	_	wf="парфѣ"|comment=incorrect|comment=lemma_unsure|addr="307:7"|_
 7	рукусани{уе}ѧ	рукописаниѥ	NOUN	_	Case=Acc|Gender=Neut|Number=Plur	4	obj	_	wf="рукусаниуеѧ"|meaning="завещание"|addr="307:7"|_
 
 # sent_id = 307-5
@@ -14523,7 +14523,7 @@
 # text = иванко кузминъ далъ рбль
 1	иванко	Иванко	PROPN	_	Case=Nom|Gender=Masc|NameType=Giv|Number=Sing	3	nsubj	_	wf="иванко"|addr="1101:_Лицевая_сторона:1"|line_id=1|_
 2	кузминъ	Кузьминъ	ADJ	_	Case=Nom|Gender=Masc|Number=Sing|Poss=Yes	1	flat:name	_	wf="кузминъ"|addr="1101:_Лицевая_сторона:1"|_
-3	далъ	дати	VERB	_	Number=Sing|Tense=Past|VerbForm=PartRes|Voice=Act	0	root	_	wf="далъ"|tense=perf|addr="1101:_Лицевая_сторона:1"|_
+3	далъ	дати	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=PartRes|Voice=Act	0	root	_	wf="далъ"|tense=perf|addr="1101:_Лицевая_сторона:1"|_
 4	рбль	рубль	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	3	obj	_	wf="рбль"|addr="1101:_Лицевая_сторона:1"|_
 
 # sent_id = 1101-2
@@ -14543,7 +14543,7 @@
 1	шюстъ	Шюстъ	PROPN	_	Case=Nom|Gender=Masc|NameType=Giv|Number=Sing	4	nsubj	_	wf="шюстъ"|addr="1101:_Лицевая_сторона:2"|_
 2	с	съ	ADP	_	_	3	case	_	wf="с"|addr="1101:_Лицевая_сторона:3"|line_id=3|_
 3	федкомь	Федко	PROPN	_	Case=Ins|Gender=Masc|NameType=Giv|Number=Sing	1	nmod	_	wf="федкомь"|addr="1101:_Лицевая_сторона:3"|_
-4	далъ	дати	VERB	_	Number=Sing|Tense=Past|VerbForm=PartRes|Voice=Act	0	root	_	wf="далъ"|tense=perf|addr="1101:_Лицевая_сторона:3"|_
+4	далъ	дати	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=PartRes|Voice=Act	0	root	_	wf="далъ"|tense=perf|addr="1101:_Лицевая_сторона:3"|_
 5	рбль	рубль	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	4	obj	_	wf="рбль"|addr="1101:_Лицевая_сторона:3"|_
 6	·	·	PUNCT	_	_	4	punct	_	wf="·"|_
 
@@ -14554,7 +14554,7 @@
 1	сава	Сава	PROPN	_	Case=Nom|Gender=Masc|NameType=Giv|Number=Sing	4	nsubj	_	wf="сава"|addr="1101:_Лицевая_сторона:3"|_
 2	съ	съ	ADP	_	_	3	case	_	wf="съ"|addr="1101:_Лицевая_сторона:3"|_
 3	притꙑкою	Притыка	PROPN	_	Case=Ins|Gender=Masc|NameType=Giv|Number=Sing	1	nmod	_	wf="притꙑкою"|addr="1101:_Лицевая_сторона:4"|line_id=4|_
-4	далъ	дати	VERB	_	Number=Sing|Tense=Past|VerbForm=PartRes|Voice=Act	0	root	_	wf="далъ"|tense=perf|addr="1101:_Лицевая_сторона:4"|_
+4	далъ	дати	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=PartRes|Voice=Act	0	root	_	wf="далъ"|tense=perf|addr="1101:_Лицевая_сторона:4"|_
 5	рбль	рубль	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	4	obj	_	wf="рбль"|addr="1101:_Лицевая_сторона:4"|_
 
 # sent_id = 1101-5
@@ -14562,7 +14562,7 @@
 # sent_transl_en = 
 # text = июда далъ рубль
 1	июда	Июда	PROPN	_	Case=Nom|Gender=Masc|NameType=Giv|Number=Sing	2	nsubj	_	wf="июда"|addr="1101:_Лицевая_сторона:4"|_
-2	далъ	дати	VERB	_	Number=Sing|Tense=Past|VerbForm=PartRes|Voice=Act	0	root	_	wf="далъ"|tense=perf|addr="1101:_Лицевая_сторона:5"|line_id=5|_
+2	далъ	дати	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=PartRes|Voice=Act	0	root	_	wf="далъ"|tense=perf|addr="1101:_Лицевая_сторона:5"|line_id=5|_
 3	рубль	рубль	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	wf="рубль"|addr="1101:_Лицевая_сторона:5"|_
 
 # sent_id = 1101-6
@@ -14570,7 +14570,7 @@
 # sent_transl_en = 
 # text = самсонъ далъ · рбл[ь]
 1	самсонъ	Самсонъ	PROPN	_	Case=Nom|Gender=Masc|NameType=Giv|Number=Sing	2	nsubj	_	wf="самсонъ"|addr="1101:_Лицевая_сторона:5"|_
-2	далъ	дати	VERB	_	Number=Sing|Tense=Past|VerbForm=PartRes|Voice=Act	0	root	_	wf="далъ"|tense=perf|addr="1101:_Лицевая_сторона:5"|_
+2	далъ	дати	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=PartRes|Voice=Act	0	root	_	wf="далъ"|tense=perf|addr="1101:_Лицевая_сторона:5"|_
 3	·	·	PUNCT	_	_	4	punct	_	wf="·"|_
 4	рбл[ь]	рубль	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	wf="рбль"|addr="1101:_Лицевая_сторона:5"|_
 
@@ -14579,7 +14579,7 @@
 # sent_transl_en = 
 # text = микула далъ полътину ·
 1	микула	Микула	PROPN	_	Case=Nom|Gender=Masc|NameType=Giv|Number=Sing	2	nsubj	_	wf="микула"|addr="1101:_Лицевая_сторона:6"|line_id=6|_
-2	далъ	дати	VERB	_	Number=Sing|Tense=Past|VerbForm=PartRes|Voice=Act	0	root	_	wf="далъ"|tense=perf|addr="1101:_Лицевая_сторона:6"|_
+2	далъ	дати	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=PartRes|Voice=Act	0	root	_	wf="далъ"|tense=perf|addr="1101:_Лицевая_сторона:6"|_
 3	полътину	полтина	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	wf="полътину"|addr="1101:_Лицевая_сторона:6"|_
 4	·	·	PUNCT	_	_	2	punct	_	wf="·"|_
 
@@ -14590,7 +14590,7 @@
 1	федърко	Федорко	PROPN	_	Case=Nom|Gender=Masc|NameType=Giv|Number=Sing	4	nsubj	_	wf="федърко"|addr="1101:_Лицевая_сторона:6"|_
 2	бъшаровъ	Бошаровъ	ADJ	_	Case=Nom|Gender=Masc|Number=Sing|Poss=Yes	1	flat:name	_	wf="бъшаровъ"|addr="1101:_Лицевая_сторона:7"|line_id=7|_
 3	плтину	полтина	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	wf="плтину"|addr="1101:_Лицевая_сторона:7"|_
-4	далъ	дати	VERB	_	Number=Sing|Tense=Past|VerbForm=PartRes|Voice=Act	0	root	_	wf="далъ"|tense=perf|addr="1101:_Лицевая_сторона:7"|_
+4	далъ	дати	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=PartRes|Voice=Act	0	root	_	wf="далъ"|tense=perf|addr="1101:_Лицевая_сторона:7"|_
 5	·	·	PUNCT	_	_	4	punct	_	wf="·"|_
 
 # sent_id = 1101-9
@@ -14600,14 +14600,14 @@
 1	ꙩсипъ	Осипъ	PROPN	_	Case=Nom|Gender=Masc|NameType=Giv|Number=Sing	4	nsubj	_	wf="ꙩсипъ"|addr="1101:_Лицевая_сторона:7"|_
 2	мшилъво	Мшиловъ	ADJ	_	Case=Nom|Gender=Masc|Number=Sing|Poss=Yes	1	flat:name	_	wf="мшилъво"|addr="1101:_Лицевая_сторона:8"|line_id=8|_
 3	плтину	полтина	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	wf="плтину"|addr="1101:_Лицевая_сторона:8"|_
-4	далъ	дати	VERB	_	Number=Sing|Tense=Past|VerbForm=PartRes|Voice=Act	0	root	_	wf="далъ"|tense=perf|addr="1101:_Лицевая_сторона:8"|_
+4	далъ	дати	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=PartRes|Voice=Act	0	root	_	wf="далъ"|tense=perf|addr="1101:_Лицевая_сторона:8"|_
 
 # sent_id = 1101-10
 # sent_transl_ru = Кукла дал рубль.
 # sent_transl_en = 
 # text = кукла далъ рубль ·
 1	кукла	Кукла	PROPN	_	Case=Nom|Gender=Masc|NameType=Giv|Number=Sing	2	nsubj	_	wf="кукла"|addr="1101:_Лицевая_сторона:9"|line_id=9|_
-2	далъ	дати	VERB	_	Number=Sing|Tense=Past|VerbForm=PartRes|Voice=Act	0	root	_	wf="далъ"|tense=perf|addr="1101:_Лицевая_сторона:9"|_
+2	далъ	дати	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=PartRes|Voice=Act	0	root	_	wf="далъ"|tense=perf|addr="1101:_Лицевая_сторона:9"|_
 3	рубль	рубль	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	wf="рубль"|addr="1101:_Лицевая_сторона:9"|_
 4	·	·	PUNCT	_	_	2	punct	_	wf="·"|_
 

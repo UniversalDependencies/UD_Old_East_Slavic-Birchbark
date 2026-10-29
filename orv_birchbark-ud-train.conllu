@@ -6697,7 +6697,7 @@
 1	а	а	CCONJ	_	_	2	cc	_	wf="а"|addr="418:2"|_
 2	цто	что	PRON	_	Case=Nom|PronType=Rel	7	dislocated	_	wf="цто"|addr="418:2"|_
 3	за	за	ADP	_	_	4	case	_	wf="за"|addr="418:2"|_
-4	то(бою)	ты	PRON	_	Case=Ins|Number=Sing|Person=2	2	obl	_	wf="тобою"|comment=lemma_unsure|addr="418:2"|_
+4	то(бою)	ты	PRON	_	Case=Ins|Number=Sing|Person=2	2	nmod	_	wf="тобою"|comment=lemma_unsure|addr="418:2"|_
 5	…	…	PUNCT	_	_	6	punct	_	wf="…"|_
 6	…<lbr/>инꙑ	…инꙑ	X	_	_	2	dep	_	wf="…инꙑ"|addr="418:2"|_
 7	присли	прислати	VERB	_	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	wf="присли"|addr="418:3"|line_id=3|_
@@ -17080,7 +17080,7 @@
 4	тебе	ты	PRON	SPRO	Case=Gen|Number=Sing|Person=2|PronType=Prs	2	obl	_	addr="1162:2"
 5	на	на	ADP	PR,gvrn:loc	_	6	case	_	comment=gvrn:loc|addr="1162:2"
 6	поли	поле	NOUN	S	Case=Loc|Gender=Neut|Number=Sing	2	obl	_	addr="1162:2"
-7	в…	весь	DET	APRO	Case=Nom|Fragment=Yes|Number=Plur|PronType=Tot	6	obl:float	_	comment=lemma_unsure|addr="1162:2"
+7	в…	весь	DET	APRO	Case=Nom|Fragment=Yes|Number=Plur|PronType=Tot	2	obl:float	_	comment=lemma_unsure|addr="1162:2"
 
 # sent_id = 1162-3
 # sent_transl_ru = твои проценты (?)
