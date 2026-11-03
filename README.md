@@ -24,7 +24,9 @@ in (Lyashevskaya 2019). The sentence segmentation and the dependency annotation 
 
 # Data collection  
 
-The data includes 27k tokens. Documents created at different periods are evenly distributed across test, dev, and train parts.  
+The data includes 30k tokens. Documents created at different periods are evenly distributed across test, dev, and train parts.  
+
+Time period disctribution ((v. 2.10):
 
 * 1025-1100 --  2.4%
 * 1100-1200 -- 37.0%
@@ -32,7 +34,7 @@ The data includes 27k tokens. Documents created at different periods are evenly 
 * 1300-1400 -- 31.5%
 * 1400-1500 -- 12.5%
 
-The following genres are presented: 
+The following genres are presented (v. 2.10): 
 
 * letters -- 61.7% 
 * household and business records -- 21.6% 
