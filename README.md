@@ -72,6 +72,16 @@ We thank the developers and annotators of the RNC Corpus of Birchbark Letters.
 
 # Changelog
 
+* 2026-11-15 v.2.19
+  * major update, data reannotated in accordance with latest publications   
+  * added data: Novgorod No. 1137, 1173-1231, Staraya Russa No. 52-59, Moscow No. 2
+  
+* 2025-11-15 v.2.17
+  * validation errors fixed  
+  
+* 2025-11-15 v.2.16
+  * minor corrections, ExtPos added    
+
 * 2022-05-15 v2.10
   * Initial release in Universal Dependencies.
 
